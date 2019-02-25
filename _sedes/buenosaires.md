@@ -1,7 +1,7 @@
 ---
 title: Buenos Aires
 layout: sedes
-id: buenosaires
+nameurl: buenosaires
 email: info.buenosaires@oajnu.org
 socialmedia:
 - facebook: oajnuba
