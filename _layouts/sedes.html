@@ -43,12 +43,10 @@ layout: page
           <div class="portfolio-contant">
             <ul id="portfolio-contant-active">
               {% for voluntario in site.data.voluntarios %}
-              <p>Esto es {{ voluntario.sede }} (y esto es {{ page.id }})</p>
-              {% if voluntario.sede == page.id %}
-              <p>Entro OK con {{ voluntario.sede }} y {{ page.title }}</p>
+              {% if voluntario.sede == page.nameurl %}
               <li class="mix">
                 <a>
-                  <img src="/img/voluntarios/2018/{{ page.title }}/{{ voluntario.nameurl }}2.jpg" alt="" onerror="this.src='/img/voluntarios/profile.jpg'">
+                  <img src="/img/voluntarios/2018/{{ page.nameurl }}/{{ voluntario.nameurl }}2.jpg" alt="" onerror="this.src='/img/voluntarios/profile.jpg'">
                   <div class="overly">
                     <div class="position-center">
                       <h2>{{ voluntario.name }}</h2>
@@ -85,7 +83,7 @@ layout: page
           <div id="proyectos-logo-buenos-aires" class="owl-carousel">
             {% for proyecto in site.data.proyectos %}
             {% assign proyectossedes = proyecto.sedes | join: " " %}
-            {% if proyectossedes contains page.title %}
+            {% if proyectossedes contains page.nameurl %}
             <div class="clients-logo-img">
               <a href="/proyectos/{{ proyecto.id }}"><img src="/img/proyectos/{{ proyecto.id }}.jpg" alt="Features"></a>
             </div>
