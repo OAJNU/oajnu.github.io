@@ -38,7 +38,7 @@ permalink: /nosotros/
                 </ul>
               </div>
               <div class="portfolio-contant">
-                <ul id="portfolio-contant-active nosotrosvoluntarios">
+                <ul id="portfolio-contant-active">
                   {% for voluntario in site.data.voluntarios %}
                   <li class="mix {% for sede in site.sedes %}{% if sede.nameurl == voluntario.sede %}{{ sede.nameurl }}{% endif %}{% endfor %}">
                     <a>
