@@ -1,0 +1,360 @@
+- id: 1
+  name: MAURICIO URQUIZA KARANICOLAS
+  nameurl: mauriciourquizakaranicolas
+  email: murquiza@oajnu.org
+  sede: comisiondirectivanacional
+  autoridad: presidencia
+- id: 2
+  name: IMANOL AGÜERO
+  nameurl: imanolaguero
+  email: eaguero@oajnu.org
+  sede: comisiondirectivanacional
+  autoridad: secretarianacionaldeadministracionfinanzasylegales
+- id: 3
+  name: ALEJANDRO BACA
+  nameurl: alejandrobaca
+  email: abaca@oajnu.org
+  sede: comisiondirectivanacional
+  autoridad: secretarianacionaldedesarrollodefondos
+- id: 4
+  name: VALENTINA BIANCO
+  nameurl: valentinabianco
+  email: vbianco@oajnu.org
+  sede: comisiondirectivanacional
+  autoridad: secretarianacionaldepromociondederechos
+- id: 5
+  name: ROCIO DOMINGUEZ
+  nameurl: rociodominguez
+  email: rdominguez@oajnu.org
+  sede: comisiondirectivanacional
+  autoridad: secretarianacionaldecoordinaciondeproyectos
+- id: 6
+  name: CATALINA DURAND
+  nameurl: catalinadurand
+  email: mcdurand@oajnu.org
+  sede: comisiondirectivanacional
+  autoridad: secretarianacionaldefortalecimientodelvoluntariado
+- id: 7
+  name: TOMÁS FURFARO
+  nameurl: tomasfurfaro
+  email: tfurfaro@oajnu.org
+  sede: comisiondirectivanacional
+  autoridad: secretarianacionaldeproyectosinternacionales
+- id: 8
+  name: MARCOS PAZ FIGUEREDO
+  nameurl: marcospazfigueredo
+  email: mpazfigueredo@oajnu.org
+  sede: buenosaires
+  autoridad: direccionejecutiva
+- id: 9
+  name: MALENA SIBON
+  nameurl: malenasibon
+  email: msibon@oajnu.org
+  sede: buenosaires
+  autoridad: secretariadeadministracionfinanzasylegales
+- id: 10
+  name: CAMILA SUAREZ MONTEOLIVA
+  nameurl: camilasuarezmonteoliva
+  email: camilasuarez@oajnu.org
+  sede: buenosaires
+  autoridad: secretariadedesarrollodefondos
+- id: 11
+  name: CRISTIAN CABERO
+  nameurl: cristiancabero
+  email: ccabero@oajnu.org
+  sede: buenosaires
+  autoridad: secretariadepromociondederechos
+- id: 12
+  name: ANA SOFIA BERMUDEZ
+  nameurl: anasofiabermudez
+  email: sbermudez@oajnu.org
+  sede: buenosaires
+  autoridad: secretariadecoordinaciondeproyectos
+- id: 13
+  name: MARIA FLORENCIA AROMÍ
+  nameurl: mariaflorenciaaromi
+  email: faromi@oajnu.org
+  sede: buenosaires
+  autoridad: secretariadefortalecimientodelvoluntariado
+- id: 14
+  name: MICAELA RZEZAK
+  nameurl: micaelarzezak
+  email: mrzezak@oajnu.org
+  sede: buenosaires
+  autoridad: secretariadecomunicacion
+- id: 15
+  name: AGUSTÍN ASTRAIN
+  nameurl:
+  email: aastrain@oajnu.org
+  sede: cordoba
+  autoridad: direccionejecutiva
+- id: 16
+  name: MARÍA VICTORIA RUGGIERI
+  nameurl:
+  email: mvruggieri@oajnu.org
+  sede: cordoba
+  autoridad: secretariadeadministracionfinanzasylegales
+- id: 17
+  name: LUCRECIA IRISO
+  nameurl:
+  email:
+  sede: cordoba
+  autoridad: secretariadedesarrollodefondos
+- id: 18
+  name: EFRAÍN PAEZ
+  nameurl:
+  email: epaez@oajnu.org
+  sede: cordoba
+  autoridad: secretariadecoordinaciondeproyectos
+- id: 19
+  name: VALENTINA PIUMETTO
+  nameurl:
+  email:
+  sede: cordoba
+  autoridad: secretariadefortalecimientodelvoluntariado
+- id: 20
+  name: JOSÉ RUSSO
+  nameurl:
+  email:
+  sede: cordoba
+  autoridad: secretariadepromociondederechos
+- id: 21
+  name: DIANA FUNES
+  nameurl:
+  email:
+  sede: mendoza
+  autoridad: direccionejecutiva
+- id: 22
+  name: LEANDRO YACANTE
+  nameurl:
+  email:
+  sede: mendoza
+  autoridad: secretariadeadministracionfinanzasylegales
+- id: 23
+  name: CLARA REY
+  nameurl:
+  email:
+  sede: mendoza
+  autoridad: secretariadepromociondederechos
+- id: 24
+  name: GUILLERMINA BRAVO
+  nameurl:
+  email:
+  sede: mendoza
+  autoridad: secretariadecomunicacion
+- id: 25
+  name: CAROLINA ROBINO
+  nameurl:
+  email:
+  sede: mendoza
+  autoridad: secretariadecoordinaciondeproyectos
+- id: 26
+  name: DAVID LÓPEZ
+  nameurl:
+  email:
+  sede: mendoza
+  autoridad: secretariadefortalecimientodelvoluntariado
+- id: 27
+  name: LUCÍA DONZELLI ZAKLIT
+  nameurl:
+  email:
+  sede: rosario
+  autoridad: direccionejecutiva
+- id: 28
+  name: IMANOL BIURRUN
+  nameurl:
+  email:
+  sede: rosario
+  autoridad: vicedireccionejecutiva
+- id: 29
+  name: GIANFRANCO TESTONI
+  nameurl:
+  email:
+  sede: rosario
+  autoridad: secretariadeadministracionfinanzasylegales
+- id: 30
+  name: VICTORIA BARBAGLIA
+  nameurl:
+  email:
+  sede: rosario
+  autoridad: secretariadepromociondederechos
+- id: 31
+  name: MARÍA AGUSTINA CABRERA
+  nameurl:
+  email:
+  sede: rosario
+  autoridad: secretariadedesarrollodefondos
+- id: 32
+  name: JUAN MANUEL VITULLO
+  nameurl:
+  email:
+  sede: rosario
+  autoridad: secretariadecoordinaciondeproyectos
+- id: 33
+  name: MARÍA BELÉN VITULLO
+  nameurl:
+  email:
+  sede: rosario
+  autoridad: secretariadefortalecimientodelvoluntariado
+- id: 34
+  name: JÉSICA DÉCIMA FASOLA
+  nameurl:
+  email:
+  sede: salta
+  autoridad: direccionejecutiva
+- id: 35
+  name: PAOLA CARRIZO
+  nameurl:
+  email:
+  sede: salta
+  autoridad: secretariadeadministracionfinanzasylegales
+- id: 36
+  name: ROSARIO SALVA
+  nameurl:
+  email:
+  sede: salta
+  autoridad: secretariadedesarrollodefondos
+- id: 37
+  name: ÁNGELA PEREYRA
+  nameurl:
+  email:
+  sede: salta
+  autoridad: secretariadepromociondederechos
+- id: 38
+  name: LUZ YAÑEZ
+  nameurl:
+  email:
+  sede: salta
+  autoridad: secretariadecomunicacion
+- id: 39
+  name: MAURO MODICA
+  nameurl:
+  email:
+  sede: salta
+  autoridad: secretariadecoordinaciondeproyectos
+- id: 40
+  name: SERGIO CASTILLO
+  nameurl:
+  email:
+  sede: salta
+  autoridad: secretariadefortalecimientodelvoluntariado
+- id: 41
+  name: MARCELA INÉS LOPEZ CECHINI
+  nameurl:
+  email:
+  sede: corrientes
+  autoridad: direccionejecutiva
+- id: 42
+  name: JUAN CARLOS OJEDA
+  nameurl:
+  email:
+  sede: corrientes
+  autoridad: secretariadeadministracionfinanzasylegales
+- id: 43
+  name: JULIAN MERINO
+  nameurl:
+  email:
+  sede: corrientes
+  autoridad: secretariadedesarrollodefondos
+- id: 44
+  name: MARÍA INÉS SILVERO
+  nameurl:
+  email:
+  sede: corrientes
+  autoridad: secretariadepromociondederechos
+- id: 45
+  name: PAULA MARIÑO
+  nameurl:
+  email:
+  sede: corrientes
+  autoridad: secretariadecomunicacion
+- id: 46
+  name: CONSTANZA SEQUEIRA
+  nameurl:
+  email:
+  sede: corrientes
+  autoridad: secretariadecoordinaciondeproyectos
+- id: 47
+  name: ANALÍA ARGÜELLO
+  nameurl:
+  email:
+  sede: corrientes
+  autoridad: secretariadefortalecimientodelvoluntariado
+- id: 48
+  name: EVEREST JOVANOVICH
+  nameurl: everestjovanovich
+  email: ejovanovich@oajnu.org
+  sede: chaco
+  autoridad: direccionejecutiva
+- id: 49
+  name: ERIKA JUDITH FOGAR
+  nameurl: erikajudithfogar
+  email: efogar@oajnu.org
+  sede: chaco
+  autoridad: secretariadeadministracionfinanzasylegales
+- id: 50
+  name: MARÍA MANUELA MASCHERONI
+  nameurl:
+  email:
+  sede: chaco
+  autoridad: secretariadedesarrollodefondos
+- id: 51
+  name: EVEREST JOVANOVICH
+  nameurl: everestjovanovich
+  email: ejovanovich@oajnu.org
+  sede: chaco
+  autoridad: secretariadepromociondederechos
+- id: 52
+  name: JOSEFINA LUCÍA SALVAY
+  nameurl:
+  email:
+  sede: chaco
+  autoridad: secretariadecoordinaciondeproyectos
+- id: 53
+  name: BRENDA DAIANA SILVA
+  nameurl:
+  email:
+  sede: chaco
+  autoridad: secretariadefortalecimientodelvoluntariado
+- id: 54
+  name: JULIÁN EXEQUIEL SORROZA
+  nameurl:
+  email:
+  sede: tucuman
+  autoridad: direccionejecutiva
+- id: 55
+  name: DAIANA SOTO FERNANDEZ
+  nameurl:
+  email:
+  sede: tucuman
+  autoridad: secretariadeadministracionfinanzasylegales
+- id: 56
+  name: YAMILA BOULLHESEN
+  nameurl:
+  email:
+  sede: tucuman
+  autoridad: secretariadedesarrollodefondos
+- id: 57
+  name: LIZ GUYOT
+  nameurl:
+  email:
+  sede: tucuman
+  autoridad: secretariadepromociondederechos
+- id: 58
+  name: MARTIN FERNANDEZ
+  nameurl:
+  email:
+  sede: tucuman
+  autoridad: secretariadecomunicacion
+- id: 59
+  name: AGUSTINA ALONSO
+  nameurl:
+  email:
+  sede: tucuman
+  autoridad: secretariadecoordinaciondeproyectos
+- id: 60
+  name: GUADALUPE GESAVAN
+  nameurl:
+  email:
+  sede: tucuman
+  autoridad: 16

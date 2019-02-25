@@ -1,0 +1,111 @@
+---
+layout: page
+title: Buenos Aires
+permalink: /sedes/buenosaires
+---
+
+{% assign pagesede = page.title | remove: " " | downcase %}
+{% assign sedee = site.data.sedes.[i] | where: i, pagesede %}
+
+<section id="global-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>{{ page.title }}</h1>
+                    <div class="social-icons" style="margin: 20px auto;">
+                      {% for seds in site.data.sedes %}
+                      {% if seds.id == pagesede %}
+                      {% if seds.socialmedia.facebook %}
+                      <a href="https://www.facebook.com/{{ seds.socialmedia.facebook }}"><i class="fa fa-facebook"></i></a>
+                      {% endif %}
+                      {% if seds.socialmedia.instagram %}
+                      <a href="https://instagram.com/{{ seds.socialmedia.instagram }}"><i class="fa fa-instagram"></i></a>
+                      {% endif %}
+                      {% if seds.socialmedia.twitter %}
+                      <a href="https://twitter.com/{{ seds.socialmedia.twitter }}"><i class="fa fa-twitter"></i></a>
+                      {% endif %}
+                      {% endif %}
+                      {% endfor %}
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio-work">
+<div class="container">
+    <div class="row">
+      <div class="section-title" style="text-align: center;">
+        <h2>Comité Ejecutivo</h2>
+      </div>
+      <div class="col-md-12">
+        <div class="block">
+          <div class="portfolio-contant">
+            <ul id="portfolio-contant-active">
+              {% for vt in site.data.voluntarios %}
+              {% if vt.sede == pagesede %}
+              <li class="mix">
+                <a>
+                  <img src="/img/voluntarios/2018/{{ pagesede }}/{{ vt.nameurl }}2.jpg" alt="" onerror="this.src='/img/voluntarios/profile.jpg'">
+                  <div class="overly">
+                    <div class="position-center">
+                      <h2>{{ vt.name }}</h2>
+                      {% for at in site.data.autoridades %}
+                      {% if at.id == vt.autoridad %}
+                      <h4>{{ at.name }}</h4>
+                      <p>{{ at.description }}</p>
+                      {% endif %}
+                      {% endfor %}
+                    </div>
+                  </div>
+                </a>
+              </li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+
+<section id="proyectos">
+  <div class="container">
+    <div class="row">
+      <div class="section-title rowflex">
+        <h2>Nuestros proyectos</h2>
+      </div>
+      <div class="col-md-12">
+        <div class="block">
+          <div id="proyectos-logo-buenos-aires" class="owl-carousel">
+            {% for py in site.data.proyectos %}
+            {% assign proyectossedes = py.sedes | join: " " %}
+            {% if proyectossedes contains pagesede %}
+            <div class="clients-logo-img">
+              <a href="/proyectos/{{ py.id }}"><img src="/img/proyectos/{{ py.id }}.jpg" alt="Features"></a>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="vernoticias">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Blog de OAJNU {{ page.title }}</h2>
+          <a class="btn btn-default btn-call-to-action" href="/blog/porsede/#{{ pagesede }}" >Ver posts</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

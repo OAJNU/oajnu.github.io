@@ -1,0 +1,527 @@
+---
+layout: page
+title: Nosotros
+permalink: /nosotros/
+---
+
+<p></p>
+
+    <!-- Slider Start -->
+<section id="global-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>Nosotros</h1>
+                    <p><a href="#portfolio-work" style="color: white;">Nuestro Equipo</a> | <a href="#historia" style="color: white;">Nuestra Historia</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Portfolio Start -->
+<section id="portfolio-work">
+    <div class="container">
+        <div class="row">
+          <div class="section-title" style="text-align: center;">
+            <h2>Nuestro Equipo</h2>
+            <p>Te presentamos al equipo de jóvenes que coordinan las voluntades de nuestra organización. Ellos trabajan junto a otros 600 enérgicos voluntarios, buscando construir una sociedad cada vez más inclusiva, democrática y promotora de derechos</p>
+          </div>
+          <div class="col-md-12">
+            <div class="block">
+              <div class="portfolio-menu" id="nosotros">
+                <ul id="nosotroscategorias">
+                    <!-- <li class="filter" data-filter="all">Todos</li> -->
+                    {% for sd in site.data.sedes %}
+                    <li class="filter" data-filter=".{{ sd.id }}">{{ sd.name }}</li>
+                    {% endfor %}
+                </ul>
+              </div>
+              <div class="portfolio-contant">
+                <ul id="portfolio-contant-active nosotrosvoluntarios">
+                  {% for vt in site.data.voluntarios %}
+                  <li class="mix {% for sd in site.data.sedes %}{% if sd.id == vt.sede %}{{ sd.id }}{% endif %}{% endfor %}">
+                    <a>
+                      <img src="/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>{{ vt.name }}</h2>
+                          <h4>{% for at in site.data.autoridades %}{% if at.id == vt.autoridad %}{{ at.name }}{% endif %}{% endfor %}</h2>
+                          <p>{% for at in site.data.autoridades %}{% if at.id == vt.autoridad %}{{ at.description }}{% endif %}{% endfor %}</p>
+                          <p><a href="mailto:{{ vt.email }}">{{ vt.email }}</a></p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  {% endfor %}
+                  <!-- <li class="mix comisiondirectivanacional">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>MAURICIO URQUIZA KARANICOLAS</h2>
+                          <h4>Presidente</h2>
+                          <p>Es la persona líder de la organización, responsable de la dirección general de las acciones y de alinear las pretensiones de los jóvenes con los objetivos estratégicos de OAJNU.</p>
+                          <p><a href="mailto:murquiza@oajnu.org">murquiza@oajnu.org</a></p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix comisiondirectivanacional">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>IMANOL AGÜERO</h2>
+                          <h4>Secretario Nacional de Administración, Finanzas y Legales</h2>
+                          <p>Dirige la administración de los recursos y gestiona las finanzas, además coordina las cuestiones legales, asegurándose de que todo se haga como debe hacerse.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix comisiondirectivanacional">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>ALEJANDRO BACA</h2>
+                          <h4>Secretario Nacional de Desarrollo de Fondos</h2>
+                          <p>Es nuestro generador de estrategias y políticas de sustentabilidad; quien potencia los vínculos con nuestros más grandes aliados, los donantes.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix comisiondirectivanacional">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>VALENTINA BIANCO</h2>
+                          <h4>Secretaria Nacional de Promoción de Derechos</h2>
+                          <p>Coordina las relaciones públicas y promueva las acciones para ampliar los derechos de los jóvenes, llevando sus voces a cada rincón.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix comisiondirectivanacional">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>ROCIO DOMINGUEZ</h2>
+                          <h4>Secretario Nacional de Coordinación de Proyectos</h2>
+                          <p>DEs el director general de los proyectos que ejecutamos en cada localidad, supervisando su calidad y asegurando que su impacto sean más jóvenes empoderados.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix comisiondirectivanacional">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>CATALINA DURAND</h2>
+                          <h4>Secretario Nacional de Fortalecimiento del Voluntariado</h2>
+                          <p>Es la articulador de nuestro funcionamiento interno, quien desarrolla políticas para potenciar a nuestros voluntarios, motivarlos y mantener la máquina en funcionamiento.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix comisiondirectivanacional">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>-</h2>
+                          <h4>Secretario Nacional de Comunicación</h2>
+                          <p>Coordina de la comunicación externa e interna. Diseña las estrategias de imagen y comunicación, siendo la voz de OAJNU.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix comisiondirectivanacional">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>TOMÁS FURFARO</h2>
+                          <h4>Secretario Nacional de Proyectos Internacionales</h2>
+                          <p>Es quien nos vincula con el mundo desarrollando proyectos en diferentes puntos del planeta junto a aliados internacionales.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li> -->
+                  <!-- <li class="mix sede">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>NOMBRE</h2>
+                          <h4>Dirección Ejecutiva</h2>
+                          <p>Lidera de la sede, es responsable de la dirección general de las acciones y de alinear las pretensiones de los jóvenes de su región con los objetivos estratégicos de OAJNU.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix sede">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>NOMBRE</h2>
+                          <h4>Secretaría de Administración, Finanzas y Legales</h2>
+                          <p>Dirige la administración de los recursos y gestiona las finanzas de la sede, además coordina las cuestiones legales, asegurándose de que todo se haga como debe hacerse.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix sede">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>NOMBRE</h2>
+                          <h4>Secretaría de Desarrollo de Fondos</h2>
+                          <p>Genera estrategias y políticas de sustentabilidad para la sede; quien potencia los vínculos con nuestros más grandes aliados, los donantes.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix sede">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>NOMBRE</h2>
+                          <h4>Secretaría de Promoción</h2>
+                          <p>Coordina de la comunicación externa de la sede, las relaciones públicas y las acciones que promueven los derechos de los jóvenes, llevando sus voces a cada rincón.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix sede">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>NOMBRE</h2>
+                          <h4>Secretaría de Coordinación de Proyectos</h2>
+                          <p>Dirige estratégicamente los proyectos que ejecutamos en la región, supervisando su calidad y asegurando que su impacto sean más jóvenes empoderados.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix sede">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>NOMBRE</h2>
+                          <h4>Secretaría de Fortalecimiento del Voluntariado</h2>
+                          <p>Articula el funcionamiento interno de la sede, quien desarrolla políticas para potenciar a los voluntarios, motivarlos y mantener la máquina en funcionamiento.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix sede">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>NOMBRE</h2>
+                          <h4>Secretaría de Comunicación</h2>
+                          <p>Articula el funcionamiento interno de la sede, quien desarrolla políticas para potenciar a los voluntarios, motivarlos y mantener la máquina en funcionamiento.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li> -->
+                  <!-- <li class="mix buenosaires">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>MARCOS PAZ FIGUEREDO</h2>
+                          <h4>Dirección Ejecutiva</h2>
+                          <p>Lidera de la sede, es responsable de la dirección general de las acciones y de alinear las pretensiones de los jóvenes de su región con los objetivos estratégicos de OAJNU.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix buenosaires">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>MALENA SIBON</h2>
+                          <h4>Secretaría de Administración, Finanzas y Legales</h2>
+                          <p>Dirige la administración de los recursos y gestiona las finanzas de la sede, además coordina las cuestiones legales, asegurándose de que todo se haga como debe hacerse.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix buenosaires">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>CAMILA SUAREZ MONTEOLIVA</h2>
+                          <h4>Secretaría de Desarrollo de Fondos</h2>
+                          <p>Genera estrategias y políticas de sustentabilidad para la sede; quien potencia los vínculos con nuestros más grandes aliados, los donantes.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix buenosaires">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>CRISTIAN CABERO</h2>
+                          <h4>Secretaría de Promoción</h2>
+                          <p>Coordina de la comunicación externa de la sede, las relaciones públicas y las acciones que promueven los derechos de los jóvenes, llevando sus voces a cada rincón.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix buenosaires">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>ANA SOFIA BERMUDEZ</h2>
+                          <h4>Secretaría de Coordinación de Proyectos</h2>
+                          <p>Dirige estratégicamente los proyectos que ejecutamos en la región, supervisando su calidad y asegurando que su impacto sean más jóvenes empoderados.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix buenosaires">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>MARIA FLORENCIA AROMÍ</h2>
+                          <h4>Secretaría de Fortalecimiento del Voluntariado</h2>
+                          <p>Articula el funcionamiento interno de la sede, quien desarrolla políticas para potenciar a los voluntarios, motivarlos y mantener la máquina en funcionamiento.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix buenosaires">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>MICAELA RZEZAK</h2>
+                          <h4>Secretaría de Comunicación</h2>
+                          <p>Articula el funcionamiento interno de la sede, quien desarrolla políticas para potenciar a los voluntarios, motivarlos y mantener la máquina en funcionamiento.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix cordoba">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>AGUSTÍN ASTRAIN</h2>
+                          <h4>Dirección Ejecutiva</h2>
+                          <p>Lidera de la sede, es responsable de la dirección general de las acciones y de alinear las pretensiones de los jóvenes de su región con los objetivos estratégicos de OAJNU.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix cordoba">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>MARÍA VICTORIA RUGGIERI</h2>
+                          <h4>Secretaría de Administración, Finanzas y Legales</h2>
+                          <p>Dirige la administración de los recursos y gestiona las finanzas de la sede, además coordina las cuestiones legales, asegurándose de que todo se haga como debe hacerse.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix cordoba">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>LUCRECIA IRISO</h2>
+                          <h4>Secretaría de Desarrollo de Fondos</h2>
+                          <p>Genera estrategias y políticas de sustentabilidad para la sede; quien potencia los vínculos con nuestros más grandes aliados, los donantes.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix cordoba">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>JOSÉ RUSSO</h2>
+                          <h4>Secretaría de Promoción</h2>
+                          <p>Coordina de la comunicación externa de la sede, las relaciones públicas y las acciones que promueven los derechos de los jóvenes, llevando sus voces a cada rincón.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix cordoba">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>EFRAÍN PAEZ</h2>
+                          <h4>Secretaría de Coordinación de Proyectos</h2>
+                          <p>Dirige estratégicamente los proyectos que ejecutamos en la región, supervisando su calidad y asegurando que su impacto sean más jóvenes empoderados.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix cordoba">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>VALENTINA PIUMETTO</h2>
+                          <h4>Secretaría de Fortalecimiento del Voluntariado</h2>
+                          <p>Articula el funcionamiento interno de la sede, quien desarrolla políticas para potenciar a los voluntarios, motivarlos y mantener la máquina en funcionamiento.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix cordoba">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>-</h2>
+                          <h4>Secretaría de Comunicación</h2>
+                          <p>Articula el funcionamiento interno de la sede, quien desarrolla políticas para potenciar a los voluntarios, motivarlos y mantener la máquina en funcionamiento.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix uruguay">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>LUCÍA FERREIRA</h2>
+                          <h4>Dirección Ejecutiva</h2>
+                          <p>Lidera de la sede, es responsable de la dirección general de las acciones y de alinear las pretensiones de los jóvenes de su región con los objetivos estratégicos de OAJNU.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix uruguay">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>-</h2>
+                          <h4>Secretaría de Administración, Finanzas y Legales</h2>
+                          <p>Dirige la administración de los recursos y gestiona las finanzas de la sede, además coordina las cuestiones legales, asegurándose de que todo se haga como debe hacerse.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix uruguay">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>LUCÍA BERTOLETTI</h2>
+                          <h4>Secretaría de Desarrollo de Fondos</h2>
+                          <p>Genera estrategias y políticas de sustentabilidad para la sede; quien potencia los vínculos con nuestros más grandes aliados, los donantes.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix uruguay">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>MAIA PORTEIRO</h2>
+                          <h4>Secretaría de Promoción</h2>
+                          <p>Coordina de la comunicación externa de la sede, las relaciones públicas y las acciones que promueven los derechos de los jóvenes, llevando sus voces a cada rincón.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix uruguay">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>LUCÍA CORCHS</h2>
+                          <h4>Secretaría de Coordinación de Proyectos</h2>
+                          <p>Dirige estratégicamente los proyectos que ejecutamos en la región, supervisando su calidad y asegurando que su impacto sean más jóvenes empoderados.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix uruguay">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>DIEGO SASIAIN</h2>
+                          <h4>Secretaría de Fortalecimiento del Voluntariado</h2>
+                          <p>Articula el funcionamiento interno de la sede, quien desarrolla políticas para potenciar a los voluntarios, motivarlos y mantener la máquina en funcionamiento.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix uruguay">
+                    <a>
+                      <img src="{{ site.baseurl }}/img/voluntarios/profile.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>-</h2>
+                          <h4>Secretaría de Comunicación</h2>
+                          <p>Articula el funcionamiento interno de la sede, quien desarrolla políticas para potenciar a los voluntarios, motivarlos y mantener la máquina en funcionamiento.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<!-- Historia -->
+<section id="historia">
+  <div class="container">
+    <div class="row">
+      <div class="section-title" style="text-align: center;">
+        <h2>Nuestra historia</h2>
+        <p style="text-align: justify;"><strong>OAJNU nació el 2 de mayo de 1995</strong> en la Ciudad de Buenos Aires, por las ganas e iniciativa de un grupo de jóvenes de entre 18 y 30 años. En sus comienzos, el espíritu de la organización y su trabajo estaba marcado directamente por su relación con la ONU, evidenciado en la realización del Modelo de Naciones Unidas como principal y casi único proyecto. En esta etapa, el foco y esencia de la organización estuvo puesto en el liderazgo, tanto como objetivo (la formación de líderes comprometidos) como en su estructura rígida y verticalista.  El objetivo se centró sobre todo en la promoción y defensa de los valores y principios de la Carta de Naciones Unidas.</p>
+        <p style="text-align: justify;">Al año siguiente se crea la primera Sede de la mano de 10 jóvenes cordobeses, y en 1997 nace la segunda, en Mendoza.</p>
+        <p style="text-align: justify;">A medida que la organización iba creciendo e iban aumentando la cantidad de lugares y de destinatarios, se comenzó a prestar atención a las diversidades y necesidades de cada uno de los contextos a los que llegaba. Asimismo comenzaron a ser necesarios espacios de participación más flexibles para los mismos voluntarios, ya que hasta el momento el órgano directivo estaba formado por un directorio y una asamblea de miembros, constituidos exclusivamente por los fundadores.</p>
+        <p style="text-align: justify;">Así, en el año 2001 se creó el primer plan estratégico (PEO 2001-2005), en el que se definieron y aclararon los principios y propósitos que iban a guiar el crecimiento cada vez mayor de la OAJNU. En este momento se comienzan a perfilar también los órganos y la estructura de la organización como la conocemos hoy, más participativa, horizontal y pluralista.</p>
+        <p style="text-align: justify;">En este primer esfuerzo por establecer las bases, se buscó sobre todo la profesionalización del trabajo, desde la ejecución hasta la planificación de nuevas iniciativas. Esto ayudó a que se pudieran diseñar nuevos proyectos, basados sobre todo en una preparación definida, según los principios del plan estratégico. Así, en 2002 nacen en Córdoba Ciudadanía de la Infancia (hoy Ciudadanía de Jóvenes) y el Concurso Literario. En el mismo año y con esta nueva mirada se crea el grupo de trabajo de San Juan.</p>
+        <p style="text-align: justify;">Entre el 2004 y 2005, en la organización se vivió un período de crisis, que llevó a transformaciones profundas. Se sucedieron diversos conflictos internos y financieros que tambalearon  la estructura y continuidad de algunos grupos de trabajo, tanto en Buenos Aires como en San Juan. Este último debió cerrar al no poder consolidarse el trabajo ni el grupo de voluntarios.</p>
+        <p style="text-align: justify;">En el intento de re-impulsar la estructura organizacional, en el 2006 comenzó un proceso para modificar y reorganizarla, proceso perfilado en el primer plan estratégico pero nunca implementado. Se produjeron modificaciones internas, permitiendo una mayor participación de todos los voluntarios, culminando con la institución del que hoy se constituye en el órgano máximo de la OAJNU: la Asamblea de Asociados. En ésta estaban representadas todas las Sedes, con la facultad, entre otras cosas, de elegir al Presidente y Secretarios de la Comisión Directiva. A fines de ese año se realizó la primera, que significó el primer paso para la elección y periodicidad de la Comisión Directiva, además de la implementación de un canal de participación activo y parejo.</p>
+        <p style="text-align: justify;">Esta primera Asamblea estableció también 5 ejes estratégicos, en miras del nuevo Plan Estratégico que se estaba gestando y que vería la luz en 2008. En estos postulados comenzamos a ver el viraje que se produjo finalmente en el año 2012, ya que se comenzó a hablar de ampliar los sectores con los que se trabajaba, de posicionar a OAJNU como referente de participación juvenil e incidir en políticas públicas.</p>
+        <p style="text-align: justify;">Con este nuevo impulso, en el año 2007 nacieron las sedes de Rosario y Salta, y en 2008 surgió en Córdoba el Programa de Tecnologías para el Cambio (ProTeCa) y un nuevo Plan Estratégico (PEO 2008-2012).</p>
+        <p style="text-align: justify;">Desde su fundación y hasta el momento, la organización estuvo regida por una serie de principios, una visión y una misión que se fueron reinterpretando y cambiando a lo largo de estos años, pero centrados en la formación y el liderazgo. Con el nuevo Plan Estratégico se produjo un nuevo giro a estos principios, centrándose esta vez en la promoción de la participación de los jóvenes.</p>
+        <p style="text-align: justify;">En el 2009 se abrió la sede Corrientes, y en el 2010 se reabrió San Juan, con nuevos proyectos, como el Modelo de Cámara de Senadores en esta última. Mientras tanto, comenzaba en toda la organización un proceso de cambio de eje, en miras al fin del PEO 2008-2012. En este espíritu y celebrando los 15 años, se hizo en el 2010 la primera Integración Nacional, evento que reunió a voluntarios de todas las sedes para intercambiar ideas y repensar la organización. Esta transformación llegó incluso a la identidad visual, modificando los distintos logos y representaciones para adecuarlos a la nueva imagen que se estaba discutiendo. </p>
+        <p style="text-align: justify;">Este proceso culminó en el año 2012, cuando en la tercera Integración Nacional, el comité del Plan Estratégico presentó la nueva identidad OAJNU. En este evento se procuró discutir, conversar, repreguntar, crear entre todos los participantes esta nueva mirada. </p>
+        <p style="text-align: justify;">Desprendiéndose de la estructura de pensar principios, visión y misión, se reunió todo eso en una sola frase: <strong>Somos la fuerza de jóvenes voluntarios empoderando a pares, para construir una sociedad cada vez más inclusiva, democrática y promotora de derechos</strong>. En este lema se resumen los principales ejes que hoy rigen nuestra organización: voluntariado, juventud, empoderamiento,  inclusión, democracia  y promoción de derechos.  El centro no está en el liderazgo ni en la participación, sino en empoderar: brindar herramientas para incidir y modificar la realidad.</p>
+        <p style="text-align: justify;">Con este nuevo impulso en el 2013  se presenta el nuevo plan estratégico, 2014-2018, en el que se instaura la nueva identidad y los objetivos a alcanzar: Más voluntarios, más jóvenes destinatarios, más donantes y más voces. A fines de este año nace la Sede Chaco.</p>
+        <p style="text-align: justify;">Este giro dio lugar al resurgimiento y refuerzo de distintos proyectos comunitarios, de incidencia directa en barrios y comunidades. OAJNU comienza a acercarse cada vez más a muchos lugares diferentes, con nuevos proyectos como Arte en Vuelo en Chaco y Corrientes, o Comunitario en Córdoba. </p>
+        <p style="text-align: justify;">Hoy OAJNU sigue creciendo en muchísimos frentes, desde las aulas y desde los barrios, posicionándose como organización de jóvenes y proponiendo espacios de participación. En 2015 se formaron los grupos de trabajo de Tucumán y Montevideo, Uruguay, y así continúan sumándose cada vez más jóvenes que buscan construir una sociedad cada vez más inclusiva, democrática y promotora de derechos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<script type="text/javascript">
+  let nosotroscategorias = document.getElementById("nosotroscategorias");
+  let nosotrosvoluntarios = document.getElementById("nosotrosvoluntarios");
+</script>

@@ -1,0 +1,118 @@
+- id: modelosdenacionesunidas
+  name: Modelos de Naciones Unidas
+  description: El Modelo de Naciones Unidas es una representación a modo de simulacro de los diferentes órganos de las Naciones Unidas. Jóvenes alumnos del secundarios asumen el rol diplomático de representar un país asignado y debaten temas de la agenda internacional, elevando propuestas de solución al respecto. Para llevar cabo esta tarea, los destinatarios son previamente capacitados por voluntarios de OAJNU, y además abordan su propia investigación acerca de las problemáticas mundiales, que luego serán debatidas con el objetivo de arribar, haciendo uso de la diplomacia, a soluciones globales, teniendo siempre en mira y como herramientas fundamentales al diálogo y el consenso. El Modelo de Naciones Unidas es una herramienta de gran utilidad que ayuda a los jóvenes a comprender de manera crítica la real dimensión de la realidad, junto a la importancia del respeto y la resolución de las controversias a través del diálogo y la paz. Desde el nacimiento de OAJNU en 1995, ya se han desarrollado 147 ediciones del proyecto, donde participaron más de 50.000 jóvenes, pertenecientes a más de 1.000 instituciones educativas.
+  photospastevents: 
+  sedes:
+    - buenosaires
+    - cordoba
+    - mendoza
+    - rosario
+    - salta
+    - corrientes
+    - sanjuan
+    - tucuman
+  objectives: 
+  target: 
+  linkinscription: 
+  - pregunta: "¿?"
+    respuesta: " "
+- id: modeloscamaradesenadores
+  name: Modelos Cámara De Senadores
+  description: Es un simulacro del funcionamiento de la Cámara de Senadores de la Nación, donde dada una problemática de interés federal, los participantes se involucra en el mecanismo de formación y sanción de una ley tendiente a solucionarla, como si fueran los mismísimos senadores nacionales. Así se procura dirigir a los jóvenes en el cumplimiento de su rol como ciudadanos activos, interesándolos en temáticas actuales que afectan a la realidad de nuestro país, permitiéndoles explotar herramientas tales como la oratoria, el diálogo y el consenso. Además, se impulsa a los participantes al conocimiento de la labor parlamentaria del Honorable Senado de la Nación. A lo largo de su historia, OAJNU ya ha desarrollado 17 ediciones de este proyecto.
+  photospastevents: 
+  sedes:
+    - mendoza
+    - sanjuan
+    - tucuman
+  objectives: 
+  target: 
+  linkinscription: 
+  - pregunta: "¿?"
+    respuesta: " "
+- id: ciudadaniadejovenes
+  name: Ciudadania De Jovenes
+  description: Es un proyecto que busca generar en los jóvenes consciencia plena de su ciudadanía, formándolos y capacitándolos en el conocimiento y ejercicio efectivo de la misma. Los voluntarios de OAJNU dictan talleres con contenido teórico práctico, proveyendo de herramientas conceptuales a los destinatarios, para que ellos mismos puedan identificar una problemática social e intenten solucionarla a través de la elaboración y posterior ejecución de un proyecto ideado por ellos mismos. Los destinatarios del proyecto son jóvenes con edades que rondan (dependiendo de la sede que lo realiza) entre los 7 y los 15 años, pertenecientes a diferentes ámbitos (educativos formal e informal, y comunitarios). Desde la fundación de OAJNU en 1995, ya se han desarrollado 60 ediciones de este proyecto, empoderando a más de 20.100 participantes.
+  photospastevents: 
+  sedes:
+    - buenosaires
+    - cordoba
+    - rosario
+    - salta
+    - corrientes
+    - sanjuan
+    - chaco
+    - tucuman
+  objectives: 
+  target: 
+  linkinscription: 
+  - pregunta: "¿?"
+    respuesta: " "
+- id: arteenvuelo
+  name: Arte en Vuelo
+  description: Es un proyecto que concibe a la educación artística como unos de los principales motores para el desarrollo humano y la integración social. Así, mediante este proyecto se realizan durante 5 meses talleres artísticos en barrios de la periferia, buscando a través del arte desarrollar competencias e inteligencias del destinatario, generar una formación en valores, y promover la integración social. Vivimos en una sociedad en la que existe una notable desigualdad de oportunidades, en que encontramos sectores sociales excluidos, marginados, oprimidos, donde la crudeza de la realidad social se manifiesta imposibilitándoles el desarrollo como personas. De allí la necesidad de un proyecto educativo que genere desarrollo e inclusión, y vemos en el arte la mejor manera de lograrlo. ¿Por qué “Arte en Vuelo”? Porque percibimos al arte como una posibilidad de autodescubrimiento personal y una de las mejores formas de interactuar y sensibilizarnos con el mundo, dándonos un sinfín de posibilidades de expresarnos y desarrollarnos. De tal forma, la educación artística se convierte en una actividad vital para el desarrollo integral de la persona, ya que despierta y explota sus facultades y enriquece, como actividad cultural, a la sociedad en su conjunto. Tal así que el Arte nos permite explotar nuestras capacidades, desarrollar nuestras inteligencias, desconocer nuestros límites, derribar nuestros horizontes... nos permite volar.
+  photospastevents: 
+  sedes:
+    - buenosaires
+    - mendoza
+    - rosario
+    - salta
+    - sanjuan
+    - chaco
+  objectives: 
+  target: 
+  linkinscription: 
+  - pregunta: "¿?"
+    respuesta: " "
+- id: concursoliterario
+  name: Concurso Literario
+  description: OAJNU concibe a este proyecto como un espacio de investigación, opinión, expresión y reflexión sobre problemáticas sociales actuales, locales y globales. Este concurso pretende acercar e interesar a las y los jóvenes por la lectura, la investigación y la escritura; promoviendo la creatividad y la libre expresión de pensamiento a través de la producción literaria. A través de la escritura de ensayos, confiamos en que estaremos aportando a la formación de Jóvenes con espíritu crítico, mediante la argumentación que cada uno de ellos desarrollarán en sus ensayos. El Concurso Literario abre un espacio que promueve la expresión de los jóvenes estudiantes de nivel medio acerca de temáticas actuales de trascendencia global y local y de esta manera, los jóvenes de toda la República pueden expresarse sobre la temática que cada año se plantea y asumen el desafío de dar su visión sobre la misma.
+  photospastevents: 
+  sedes:
+    - buenosaires
+    - cordoba
+    - mendoza
+    - rosario
+    - salta
+    - corrientes
+    - sanjuan
+    - chaco
+    - tucuman
+  objectives: 
+  target: 
+  linkinscription: 
+  - pregunta: "¿?"
+    respuesta: " "
+- id: abrazadiversidad
+  name: Abraza Diversidad
+  description: Desde OAJNU, entendemos que la educación es el medio más importante a través del cual promover cambios profundos, creemos que es el medio más idóneo para hacer de esta una sociedad más justa. A lo largo de estos diecisiete años de trabajo, y a través de un fuerte vínculo con instituciones del ámbito educativo formal, hemos podido vislumbrar cómo mediante el trabajo conjunto, las herramientas y los contenidos aportados por OAJNU, se ha obtenido como resultado un fuerte impacto de nuestros proyectos en destinatarios con distintas realidades en forma altamente positiva. En nuestra Organización, compartiendo los valores expresados en la Carta de Naciones Unidas, consideramos al respeto por los Derechos Humanos un principio ineludible sobre el cual debemos trabajar en un marco de tolerancia, igualdad y diálogo. En este aspecto y resaltando el artículo primero de la D.U.D.H. que establece “Todos los seres humanos nacen libres e iguales en dignidad y derechos” creemos fundamental realizar nuestro aporte en pos de la integración de las minorías étnicas como actores fundamentales de nuestra comunidad. Esta Integración hace referencia a una adaptación mutua entre dos o más segmentos socioculturales diferentes, pero iguales en derechos y obligaciones, y no a un ajuste unilateral de las minorías o de los inmigrantes. Son necesarios cambios en la sociedad mayoritaria receptora y cambios en los grupos minoritarios. Muchas veces los sectores de bajos recursos son quienes ven su identidad vulnerada al no contar con un espacio que priorice y fomente sus aptitudes personales. Nosotros creemos que lo más importante es que exista la posibilidad de que las personas se integren, y no es que todas las personas se integren en todos los ámbitos. En este sentido, ciudadanía supone la posibilidad o el acceso a los derechos que rigen la convivencia y la distribución de la riqueza en determinado territorio. Es prioridad para nosotros lograr la sensibilización intercultural, a través de un proceso de influencia comunicativa a distintos niveles (individual, grupal y social), cuyo objetivo principal es promover o ajustar actitudes o percepciones, que faciliten una reflexión generadora de cambios comportamentales, los cuales se conviertan en actitudes favorables a la diversidad cultural y, por ende, a las personas y colectivos que la conforman. La historia es importante para los pueblos, en tanto permite construir procesos identitarios que favorecen a la pregunta de ¿quiénes somos? Pensar nuestra historia nos permite construir y fortalecer nuestras identidades, a la vez que posibilita reconocer otras identidades, otros sujetos portadores de cultura. En ese sentido nuestro proyecto promueve el reconocimiento y el encuentro con esas otredades negadas que están presentes y son parte de nuestra sociedad. Pensamos que una aproximación a los saberes y prácticas desarrollados por las diversas comunidades que conforman nuestra sociedad, demanda reconocer y recuperar sus cosmovisiones y específicamente su concepción de la naturaleza, ya que la misma no es solo un recurso económico, sino también un patrimonio cultural. Por lo tanto, el entendimiento o comprensión de los saberes de estos grupos sociales y sus prácticas, implican una comunión intrínseca con los saberes ambientales. Este saber cotidiano, que se centra en el saber enseñarse posibilitado por esa pedagogía comunitaria, no consiste en una mera incorporación de conocimientos y técnicas aislada de aquellos que circulan en el mundo de vida en el que se inserta la comunidad, por el contrario involucra a la persona y su medio, a la naturaleza, a la vida vegetal y animal y en esa convivencia se practica el respeto, que enseña diversas estrategias de apropiación del territorio que según la manera propia de comprender e interpretar se adecuan en saber ser y hacer con sentido común. Para alcanzar un futuro sustentable que enfrente la crisis ambiental (la cual encierra la crisis de un modelo económico), la educación tiene que hacer un cambio, a través de la incorporación de una visión holística del mundo, basada en la complejidad y diversidad. La ética de la sustentabilidad requiere repensar la globalidad desde un conocimiento y saber local, basado en la interculturalidad, lo cual implica la presencia de una interacción entre diversas culturas con la posibilidad de generar expresiones culturales compartidas, por medio del diálogo y el intercambio mutuo. Implica una correspondencia y una mutua interacción entre diferentes identidades culturales, es decir, un intercambio son sentido. Teniendo presente a la familia como grupo fundamental de la sociedad y concientes de que los niños son el futuro, es nuestro deber hoy, reconocer que para el desarrollo de su personalidad debemos en forma activa fomentar su identidad valorando cada uno de los aspectos de su persona que les permita transitar una infancia armoniosa. Es por esto que desde OAJNU vemos la necesidad de concientizarnos y de concientizar a la sociedad sobre la diversidad de culturas que existen y de la posibilidad de convivir en un marco de respeto y de integración. El fin último del proyecto “Abraza Diversidad” es contribuir en la construcción de una sociedad intercultural donde todos nos respetemos y valoremos, más allá de nuestra pertenencia étnica o social. Un elemento clave para este fin es fomentar la integración de las minorías étnicas en nuestra sociedad. Es decir, este proyecto propone construir entre todos una mirada que promueva una sociedad respetuosa de la diversidad cultural, por medio de la integración, la participación, el pluralismo, donde estemos contenidos todos.
+  photospastevents: 
+  sedes:
+  objectives: 
+  target: 
+  linkinscription: 
+  - pregunta: "¿?"
+    respuesta: " "
+- id: foronacional
+  name: Foro Nacional
+  description: El Foro Nacional de Juventud surge con el propósito de construir un espacio de encuentro y reflexión colectiva sobre diversas temáticas que nos interpelan como Jóvenes con miras a incidir en procesos de formulación y ejecución de Políticas Públicas de Juventud en los ámbitos locales, provinciales y nacional de la República Argentina. Esto implica dar cuenta de que los y las jóvenes nos pensamos como protagonistas del cambio y del desarrollo de las sociedades en las que vivimos, aportando y comprometiéndonos significativamente con las soluciones de las problemáticas y políticas que nos involucran. He aquí la mirada en la participación juvenil y en la incidencia en políticas públicas. Contactanos por forojuventud@oajnu.org
+  photospastevents: 
+  sedes: 
+    - corrientes
+    - chaco
+  objectives: 
+  target: 
+  linkinscription: 
+  - pregunta: "¿?"
+    respuesta: " "
+- id: proteca
+  name: Proteca
+  description: El Programa de Tecnologías para el Cambio tiene como objetivo generar espacios de participación que contribuyan a la ampliación de oportunidades de jóvenes pertenecientes a comunidades rurales, mediante actividades de capacitación y formación, para fomentar el desarrollo sostenible de las mismas. ProTeCa se nutre de las comunidades, de sus realidades e identidades propias, y busca ser una puerta de acceso a los jóvenes para incorporarlos completamente en la generación de tecnologías desde una visión muy amplia. En un principio, no muy lejano a hoy, la noción directa a tecnología era la digital, que se determinaba simplemente en función del acceso a computadoras o a internet. Actualmente, ese paradigma fue transformándose, y aquella brecha digital debe entenderse como parte de un proceso natural y circunstancial de inclusión social, técnica y comunicacional, y la juventud debe enfrentarse al desafío milenario; incorporarse a un nuevo orden social e internacional que no conoce fronteras ni distancias. En ProTeCa reconocemos que la accesibilidad no es suficiente en las zonas rurales, y partimos de ésta brecha -como problemática social- donde las TECNOLOGÍAS se convierten en puentes de acción hacia nuevas oportunidades, puentes que acercan y conectan, puentes que fomentan ciudadanos emprendedores, comprometidos con su entorno, su tierra, con la comunidad.
+  photospastevents: 
+  sedes:
+    - cordoba
+  objectives: 
+  target: 
+  linkinscription: 
+  faq:
+  - pregunta: "¿?"
+    respuesta: " "

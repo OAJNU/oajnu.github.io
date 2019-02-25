@@ -1,0 +1,70 @@
+- id: comisiondirectivanacional
+  name: Comisión Directiva Nacional
+  email: info@oajnu.org
+  socialmedia: 
+    facebook: oajnu
+    instagram: oajnu
+    twitter: oajnu
+- id: buenosaires
+  name: Buenos Aires
+  email: info.buenosaires@oajnu.org
+  socialmedia: 
+    facebook: oajnuba
+    instagram: oajnuba
+    twitter: oajnuba
+- id: cordoba
+  name: Cordoba
+  email: info.cordoba@oajnu.org
+  socialmedia: 
+    facebook: oajnucordoba
+    instagram: oajnucordoba
+    twitter: oajnucordoba
+- id: mendoza
+  name: Mendoza
+  email: info.mendoza@oajnu.org
+  socialmedia: 
+    facebook: oajnu.mendoza
+    instagram: oajnu_mendoza
+    twitter: oajnumendoza
+- id: rosario
+  name: Rosario
+  email: info.rosario@oajnu.org
+  socialmedia: 
+    facebook: oajnurosario
+    instagram: oajnurosario
+    twitter: oajnurosario
+- id: salta
+  name: Salta
+  email: info.salta@oajnu.org
+  socialmedia: 
+    facebook: oajnusalta
+    instagram: oajnusalta
+    twitter: oajnusalta
+- id: corrientes
+  name: Corrientes
+  email: info.corrientes@oajnu.org
+  socialmedia: 
+    facebook: oajnucorrientes
+    instagram: oajnucorrientes
+    twitter: oajnuctes
+- id: sanjuan
+  name: San Juan
+  email: info.sanjuan@oajnu.org
+  socialmedia: 
+    facebook: oajnu.sanjuan
+    instagram: oajnusanjuan
+    twitter: oajnusanjuan
+- id: chaco
+  name: Chaco
+  email: info.chaco@oajnu.org
+  socialmedia: 
+    facebook: oajnuchaco
+    instagram: oajnuchaco
+    twitter: oajnuchaco
+- id: tucuman
+  name: Tucumán
+  email: info.tucuman@oajnu.org
+  socialmedia: 
+    facebook: oajnutucuman
+    instagram: oajnutucuman
+    twitter: oajnutucuman

@@ -1,0 +1,218 @@
+---
+layout: page
+title:
+permalink: /
+---
+
+<!-- SLIDER -->
+<section id="slider">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-2">
+        <div class="block">
+          <h1 class="animated fadeInUp">EMPODERAMOS A JÓVENES</h1>
+          <p class="animated fadeInUp">mediante proyectos educativos, brindándoles herramientas para incidir en su entorno.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- QUIENES SOMOS -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>Quienes somos</h2>
+            <p>Somos una organización de jóvenes que trabajamos por y para otros jóvenes, brindándoles herramientas para que ellos mismos incidan en su entorno.</p>
+          </div>
+          <p>En otras palabras, somos una ONG sin fines de lucro, apartidaria y pluralista, compuesta en su totalidad por voluntarios de entre 16 y 30 años que trabajamos en 9 provincias de la Argentina y en el Uruguay. Creemos en la educación como herramienta clave para transformar la sociedad. Desde este lugar trabajamos con jóvenes y niños, a quienes consideramos los agentes más importantes para incidir y potenciar sus propios contextos, en pos de una sociedad más inclusiva, democrática y promotora de derechos.</p>
+          <p>Nos definimos como <strong>la fuerza de jóvenes voluntarios, empoderando a pares, para construir una sociedad cada vez más inclusiva, democrática y promotora de derechos</strong>.</p>
+        </div>
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <!-- <img src="img/wrapper-img.png" alt="Img"> -->
+          <!-- <img src="http://s3.amazonaws.com/libapps/customers/49/images/unflag.gif" alt="Img"> -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/8GmShp-pJKs?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div><!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>
+
+<section id="feature">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2>Vinculo con la ONU</h2>
+      <p>Nuestra Organización comparte los valores y principales propósitos expresados en la Carta de Naciones Unidas: tolerancia, igualdad de oportunidades, respeto por los Derechos Humanos, cooperación, diálogo y Paz, entre otros.</p>
+      <p>Nuestro compromiso con las instancias multilaterales de resolución de conflictos nos ha acercado, desde nuestro nacimiento en 1995, a la Organización de las Naciones Unidas y las agencias del Sistema, contando entre los firmantes del Acta de Fundación al Director del Centro de Información de las Naciones Unidas para Argentina y Uruguay (CINU), Dr. Ángel Escudero de Paz, y del entonces Representante argentino ante la ONU, Embajador Emilio Cárdenas.</p>
+      <p>En septiembre de 2001, la ONU reconoció nuestra labor incorporándonos como Organización asociada al Departamento de Información Pública de las Naciones Unidas (DPI), status otorgado a tan sólo a una ONG de toda América en ese período. Actualmente mantenemos ese status.</p>
+      <!-- <a href="#" class="btn btn-view-works">View Works</a> -->
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- SEDES -->
+{% if site.data.sedes.size > 1 %}
+<section id="service"><span id="sedes"></span>
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>Nuestras Sedes</h2>
+      </div>
+    </div>
+    <div class="row rowflex" style="display: flex; align-items: center;">
+      {% for sede in site.data.sedes %}
+      {% if sede.id == "comisiondirectivanacional" %}
+      {% continue %}
+      {% endif %}
+      <div class="col-sm-12 col-md-4">
+        <div class="service-item">
+          <a href="/sedes/{{ sede.id }}"><img src="/img/sedes/{{ sede.id }}.png" alt="" style="width: 100px;"></a>
+          <h4>{{ sede.name }}</h4>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- PROYECTOS -->
+{% if site.data.proyectos.size > 0 %}
+<section id="proyectos">
+  <div class="container">
+    <div class="row">
+      <div class="section-title rowflex">
+        <h2>Nuestros proyectos</h2>
+      </div>
+      <div class="col-md-12">
+        <div class="block">
+          <div id="proyectos-logo" class="owl-carousel">
+            {% for proyecto in site.data.proyectos %}
+            <div class="clients-logo-img">
+              <a href="/proyectos/{{ proyecto.id }}"><img src="/img/proyectos/{{ proyecto.id }}.jpg" alt="Features"></a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- SE VOLUNTARIO -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>SÉ VOLUNTARIO</h2>
+          <p>Transformá realidades vos también, sumate a nuestro equipo</p>
+          <a class="btn btn-default btn-call-to-action" href="/quiero-ser-voluntario" >Quiero ser voluntario</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPONSORS -->
+{% if site.data.sponsors.size > 0 %}
+<section id="clients-logo-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div id="clients-logo" class="owl-carousel">
+            {% for sponsor in site.data.sponsors %}
+            <div class="clients-logo-img">
+              <img src="/img/sponsors/{{ sponsor.id }}.png" alt="Features">
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- IMPACTO -->
+<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>Nuestro Impacto</h2>
+        <p>Desde el 1995 desarrollamos proyectos educativos y promovemos los derechos de los jóvenes.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        {% if site.data.funfacts.size > 0 %}
+        <div class="block">
+          {% for ff in site.data.funfacts %}
+          <ul class="counter-box clearfix">
+            <li>
+              <div class="block">
+                <i class="{{ ff.icon }}"></i>
+                <h4 class="counter">{{ ff.counter }}</h4>
+                <span>{{ ff.text }}</span>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+      <div class="col-md-6">
+        {% if site.data.testimonials.size > 0 %}
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {% for tm in site.data.testimonials %}
+            <div>
+                <!-- <img src="img/cotation.png" alt="IMG"> -->
+                <p>"{{ tm.testimonial }}"</p>
+                <div class="user">
+                  <img src="{{ tm.image }}" alt="Pepole">
+                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>Preguntas Frecuentes</h2>
+        <p>Aquí podremos resolver las dudas que casualmente tengas.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        {% if site.data.faq.size > 0 %}
+        <div class="block">
+          {% for ff in site.data.faq %}
+          <ul class="counter-box clearfix">
+            <li>
+              <div class="block">
+                <h4>{{ ff.pregunta }}</h4>
+                <span>{{ ff.respuesta }}</span>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
