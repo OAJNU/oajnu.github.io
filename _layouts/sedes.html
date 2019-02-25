@@ -43,11 +43,11 @@ layout: page
             <ul id="portfolio-contant-active">
               {% for voluntario in site.data.voluntarios %}
               <p>Esto es {{ voluntario.sede }}</p>
-              {% if voluntario.sede == page.id %}
-              <p>Entro OK con {{ voluntario.sede }} y {{ page.id }}</p>
+              {% if voluntario.sede == page.title %}
+              <p>Entro OK con {{ voluntario.sede }} y {{ page.title }}</p>
               <li class="mix">
                 <a>
-                  <img src="/img/voluntarios/2018/{{ page.id }}/{{ voluntario.nameurl }}2.jpg" alt="" onerror="this.src='/img/voluntarios/profile.jpg'">
+                  <img src="/img/voluntarios/2018/{{ page.title }}/{{ voluntario.nameurl }}2.jpg" alt="" onerror="this.src='/img/voluntarios/profile.jpg'">
                   <div class="overly">
                     <div class="position-center">
                       <h2>{{ voluntario.name }}</h2>
@@ -84,7 +84,7 @@ layout: page
           <div id="proyectos-logo-buenos-aires" class="owl-carousel">
             {% for proyecto in site.data.proyectos %}
             {% assign proyectossedes = proyecto.sedes | join: " " %}
-            {% if proyectossedes contains page.id %}
+            {% if proyectossedes contains page.title %}
             <div class="clients-logo-img">
               <a href="/proyectos/{{ proyecto.id }}"><img src="/img/proyectos/{{ proyecto.id }}.jpg" alt="Features"></a>
             </div>
@@ -103,7 +103,7 @@ layout: page
       <div class="col-md-12">
         <div class="block">
           <h2>Blog de OAJNU {{ page.name }}</h2>
-          <a class="btn btn-default btn-call-to-action" href="/blog/porsede/#{{ page.id }}" >Ver posts</a>
+          <a class="btn btn-default btn-call-to-action" href="/blog/porsede/#{{ page.title }}" >Ver posts</a>
         </div>
       </div>
     </div>
