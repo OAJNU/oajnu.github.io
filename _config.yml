@@ -37,7 +37,7 @@ descriptions:
 collections:
   sedes:
     output: true
-    permalink: /sedes/:path/
+    permalink: /:collection/:name/
   # proyectos:
   #   output: true
   #   permalink: /proyectos/:path/
