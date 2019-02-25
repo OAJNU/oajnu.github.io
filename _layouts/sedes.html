@@ -11,7 +11,6 @@ layout: page
             <div class="col-md-12">
                 <div class="block">
                     <h1>{{ page.title }}</h1>
-                    <p>{{ page.title }} {{ page.id }} {{ page.email }} {{ page.nameurl }}</p>
                     <div class="social-icons" style="margin: 20px auto;">
                       {% for socialmedia in page.socialmedia %}
                       {% if socialmedia.facebook %}
@@ -56,8 +55,8 @@ layout: page
                       <p>{{ autoridad.description }}</p>
                       {% endif %}
                       {% endfor %} -->
-                      <h4>{{ site.data.autoridades.(voluntario.autoridad).name }}</h4>
-                      <p>{{ site.data.autoridades.(voluntario.autoridad).description }}</p>
+                      <h4>{{ site.data.autoridades.{{voluntario.autoridad}}.name }}</h4>
+                      <p>{{ site.data.autoridades.{{voluntario.autoridad}}.description }}</p>
                     </div>
                   </div>
                 </a>
