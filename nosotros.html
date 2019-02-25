@@ -32,23 +32,23 @@ permalink: /nosotros/
               <div class="portfolio-menu" id="nosotros">
                 <ul id="nosotroscategorias">
                     <!-- <li class="filter" data-filter="all">Todos</li> -->
-                    {% for sd in site.sedes %}
-                    <li class="filter" data-filter=".{{ sd.id }}">{{ sd.name }}</li>
+                    {% for sede in site.sedes %}
+                    <li class="filter" data-filter=".{{ sede.nameurl }}">{{ sede.title }}</li>
                     {% endfor %}
                 </ul>
               </div>
               <div class="portfolio-contant">
                 <ul id="portfolio-contant-active nosotrosvoluntarios">
-                  {% for vt in site.data.voluntarios %}
-                  <li class="mix {% for sd in site.sedes %}{% if sd.id == vt.sede %}{{ sd.id }}{% endif %}{% endfor %}">
+                  {% for voluntario in site.data.voluntarios %}
+                  <li class="mix {% for sede in site.sedes %}{% if sede.nameurl == voluntario.sede %}{{ sede.nameurl }}{% endif %}{% endfor %}">
                     <a>
                       <img src="/img/voluntarios/profile.jpg" alt="">
                       <div class="overly">
                         <div class="position-center">
-                          <h2>{{ vt.name }}</h2>
-                          <h4>{% for at in site.data.autoridades %}{% if at.id == vt.autoridad %}{{ at.name }}{% endif %}{% endfor %}</h2>
-                          <p>{% for at in site.data.autoridades %}{% if at.id == vt.autoridad %}{{ at.description }}{% endif %}{% endfor %}</p>
-                          <p><a href="mailto:{{ vt.email }}">{{ vt.email }}</a></p>
+                          <h2>{{ voluntario.name }}</h2>
+                          <h4>{% for autoridad in site.data.autoridades %}{% if autoridad.id == voluntario.autoridad %}{{ autoridad.name }}{% endif %}{% endfor %}</h2>
+                          <p>{% for autoridad in site.data.autoridades %}{% if autoridad.id == voluntario.autoridad %}{{ autoridad.description }}{% endif %}{% endfor %}</p>
+                          <p><a href="mailto:{{ voluntario.email }}">{{ voluntario.email }}</a></p>
                         </div>
                       </div>
                     </a>
