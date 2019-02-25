@@ -10,7 +10,7 @@ layout: page
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h1>{{ page.name }}</h1>
+                    <h1>{{ page.title }}</h1>
                     <p>{{ page.title }} {{ page.id }} {{ page.email }}</p>
                     <div class="social-icons" style="margin: 20px auto;">
                       {% for socialmedia in page.socialmedia %}
@@ -43,8 +43,8 @@ layout: page
           <div class="portfolio-contant">
             <ul id="portfolio-contant-active">
               {% for voluntario in site.data.voluntarios %}
-              <p>Esto es {{ voluntario.sede }}</p>
-              {% if voluntario.sede == page.title %}
+              <p>Esto es {{ voluntario.sede }} (y esto es {{ page.id }})</p>
+              {% if voluntario.sede == page.id %}
               <p>Entro OK con {{ voluntario.sede }} y {{ page.title }}</p>
               <li class="mix">
                 <a>
