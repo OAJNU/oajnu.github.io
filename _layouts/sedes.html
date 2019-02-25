@@ -75,11 +75,11 @@ layout: page
       <div class="col-md-12">
         <div class="block">
           <div id="proyectos-logo-buenos-aires" class="owl-carousel">
-            {% for proyecto in site.data.proyectos %}
+            {% for proyecto in site.proyectos %}
             {% assign proyectossedes = proyecto.sedes | join: " " %}
             {% if proyectossedes contains page.nameurl %}
             <div class="clients-logo-img">
-              <a href="/proyectos/{{ proyecto.id }}"><img src="/img/proyectos/{{ proyecto.id }}.jpg" alt="Features"></a>
+              <a href="/proyectos/{{ proyecto.nameurl }}"><img src="/img/proyectos/{{ proyecto.nameurl }}.jpg" alt="Features"></a>
             </div>
             {% endif %}
             {% endfor %}

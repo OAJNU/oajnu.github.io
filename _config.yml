@@ -38,6 +38,6 @@ collections:
   sedes:
     output: true
     permalink: /:collection/:name/
-  # proyectos:
-  #   output: true
-  #   permalink: /proyectos/:path/
+  proyectos:
+    output: true
+    permalink: /:collection/:name/

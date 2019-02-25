@@ -82,7 +82,7 @@ permalink: /
 </section>
 {% endif %}
 <!-- PROYECTOS -->
-{% if site.data.proyectos.size > 0 %}
+{% if site.proyectos.size > 0 %}
 <section id="proyectos">
   <div class="container">
     <div class="row">
@@ -92,9 +92,9 @@ permalink: /
       <div class="col-md-12">
         <div class="block">
           <div id="proyectos-logo" class="owl-carousel">
-            {% for proyecto in site.data.proyectos %}
+            {% for proyecto in site.proyectos %}
             <div class="clients-logo-img">
-              <a href="/proyectos/{{ proyecto.id }}"><img src="/img/proyectos/{{ proyecto.id }}.jpg" alt="Features"></a>
+              <a href="/proyectos/{{ proyecto.nameurl }}"><img src="/img/proyectos/{{ proyecto.nameurl }}.jpg" alt="Features"></a>
             </div>
             {% endfor %}
           </div>
