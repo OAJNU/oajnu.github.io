@@ -42,10 +42,11 @@ layout: page
           <div class="portfolio-contant">
             <ul id="portfolio-contant-active">
               {% for voluntario in site.data.voluntarios %}
+              <p>Esto es {{ voluntario.sede }}</p>
               {% if voluntario.sede == page.id %}
               <li class="mix">
                 <a>
-                  <img src="{{ site.url }}/img/voluntarios/2018/{{ page.id }}/{{ voluntario.nameurl }}2.jpg" alt="" onerror="this.src='/img/voluntarios/profile.jpg'">
+                  <img src="/img/voluntarios/2018/{{ page.id }}/{{ voluntario.nameurl }}2.jpg" alt="" onerror="this.src='/img/voluntarios/profile.jpg'">
                   <div class="overly">
                     <div class="position-center">
                       <h2>{{ voluntario.name }}</h2>
@@ -82,7 +83,7 @@ layout: page
             {% assign proyectossedes = proyecto.sedes | join: " " %}
             {% if proyectossedes contains page.id %}
             <div class="clients-logo-img">
-              <a href="{{ site.url }}/proyectos/{{ proyecto.id }}"><img src="/img/proyectos/{{ proyecto.id }}.jpg" alt="Features"></a>
+              <a href="/proyectos/{{ proyecto.id }}"><img src="/img/proyectos/{{ proyecto.id }}.jpg" alt="Features"></a>
             </div>
             {% endif %}
             {% endfor %}
