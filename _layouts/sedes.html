@@ -44,18 +44,21 @@ layout: page
               {% for voluntario in site.data.voluntarios %}
               <p>Esto es {{ voluntario.sede }}</p>
               {% if voluntario.sede == page.id %}
+              <p>Entro OK con {{ voluntario.sede }} y {{ page.id }}</p>
               <li class="mix">
                 <a>
                   <img src="/img/voluntarios/2018/{{ page.id }}/{{ voluntario.nameurl }}2.jpg" alt="" onerror="this.src='/img/voluntarios/profile.jpg'">
                   <div class="overly">
                     <div class="position-center">
                       <h2>{{ voluntario.name }}</h2>
-                      {% for autoridad in site.data.autoridades %}
+                      <!-- {% for autoridad in site.data.autoridades %}
                       {% if autoridad.id == voluntario.autoridad %}
                       <h4>{{ autoridad.name }}</h4>
                       <p>{{ autoridad.description }}</p>
                       {% endif %}
-                      {% endfor %}
+                      {% endfor %} -->
+                      <h4>{{ site.data.autoridades.(voluntario.autoridad).name }}</h4>
+                      <p>{{ site.data.autoridades.(voluntario.autoridad).description }}</p>
                     </div>
                   </div>
                 </a>
