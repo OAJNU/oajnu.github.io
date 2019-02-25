@@ -40,7 +40,7 @@ permalink: /nosotros/
               <div class="portfolio-contant">
                 <ul id="portfolio-contant-active nosotrosvoluntarios">
                   {% for voluntario in site.data.voluntarios %}
-                  <li class="{% for sede in site.sedes %}{% if sede.nameurl == voluntario.sede %}{{ sede.nameurl }}{% endif %}{% endfor %}">
+                  <li class="mix {% for sede in site.sedes %}{% if sede.nameurl == voluntario.sede %}{{ sede.nameurl }}{% endif %}{% endfor %}">
                     <a>
                       <img src="/img/voluntarios/profile.jpg" alt="">
                       <div class="overly">
@@ -521,7 +521,7 @@ permalink: /nosotros/
     </div>
   </div>
 </section>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   let nosotroscategorias = document.getElementById("nosotroscategorias");
   let nosotrosvoluntarios = document.getElementById("nosotrosvoluntarios");
-</script>
+</script> -->
