@@ -11,6 +11,7 @@ layout: page
             <div class="col-md-12">
                 <div class="block">
                     <h1>{{ page.name }}</h1>
+                    <p>{{ page.title }} {{ page.id }} {{ page.email }}</p>
                     <div class="social-icons" style="margin: 20px auto;">
                       {% for socialmedia in page.socialmedia %}
                       {% if socialmedia.facebook %}
