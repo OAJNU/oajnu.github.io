@@ -66,14 +66,14 @@ permalink: /
       </div>
     </div>
     <div class="row rowflex" style="display: flex; align-items: center;">
-      {% for sede in site.data.sedes %}
-      {% if sede.id == "comisiondirectivanacional" %}
+      {% for sede in site.sedes %}
+      {% if sede.nameurl == "comisiondirectivanacional" %}
       {% continue %}
       {% endif %}
       <div class="col-sm-12 col-md-4">
         <div class="service-item">
-          <a href="/sedes/{{ sede.id }}"><img src="/img/sedes/{{ sede.id }}.png" alt="" style="width: 100px;"></a>
-          <h4>{{ sede.name }}</h4>
+          <a href="/sedes/{{ sede.nameurl }}"><img src="/img/sedes/{{ sede.nameurl }}.png" alt="" style="width: 100px;"></a>
+          <h4>{{ sede.title }}</h4>
         </div>
       </div>
       {% endfor %}
