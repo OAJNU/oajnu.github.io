@@ -32,7 +32,7 @@ permalink: /nosotros/
               <div class="portfolio-menu" id="nosotros">
                 <ul id="nosotroscategorias">
                     <!-- <li class="filter" data-filter="all">Todos</li> -->
-                    {% for sd in site.data.sedes %}
+                    {% for sd in site.sedes %}
                     <li class="filter" data-filter=".{{ sd.id }}">{{ sd.name }}</li>
                     {% endfor %}
                 </ul>
@@ -40,7 +40,7 @@ permalink: /nosotros/
               <div class="portfolio-contant">
                 <ul id="portfolio-contant-active nosotrosvoluntarios">
                   {% for vt in site.data.voluntarios %}
-                  <li class="mix {% for sd in site.data.sedes %}{% if sd.id == vt.sede %}{{ sd.id }}{% endif %}{% endfor %}">
+                  <li class="mix {% for sd in site.sedes %}{% if sd.id == vt.sede %}{{ sd.id }}{% endif %}{% endfor %}">
                     <a>
                       <img src="/img/voluntarios/profile.jpg" alt="">
                       <div class="overly">
