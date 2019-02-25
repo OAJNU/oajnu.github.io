@@ -8,7 +8,7 @@
                 <input type="text" class="form-control" placeholder="Email">
                 <button class="btn btn-default" type="submit">Suscribirme al newsletter</button>
             </form>
-          {% if site.sedes.comisiondirectivanacional.socialmedia.size > 0 %}
+          {% if site.sedes.comisiondirectivanacional.socialmedia %}
           <ul class="social-icons" style="margin: 20px auto;">
             {% for socialmedia in site.sedes.comisiondirectivanacional.socialmedia %}
             {% if socialmedia.facebook %}
