@@ -42,7 +42,7 @@ permalink: /nosotros/
                   {% for voluntario in site.data.voluntarios %}
                   <li class="mix {% for sede in site.sedes %}{% if sede.nameurl == voluntario.sede %}{{ sede.nameurl }}{% endif %}{% endfor %}">
                     <a>
-                      <img src="{{ site.url }}/img/voluntarios/2018/{{ sede.nameurl }}/{{ voluntario.nameurl }}.jpg" alt="" onerror="this.src='/img/voluntarios/profile.jpg'">
+                      <img src="/img/voluntarios/2018/{{ voluntario.sede }}/{{ voluntario.nameurl }}.jpg" alt="" onerror="/img/voluntarios/profile.jpg">
                       <div class="overly">
                         <div class="position-center">
                           <h2>{{ voluntario.name }}</h2>
