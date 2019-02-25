@@ -8,20 +8,22 @@
                 <input type="text" class="form-control" placeholder="Email">
                 <button class="btn btn-default" type="submit">Suscribirme al newsletter</button>
             </form>
+          {% if site.sedes.comisiondirectivanacional.socialmedia.size > 0 %}
           <ul class="social-icons" style="margin: 20px auto;">
+            {% for socialmedia in site.sedes.comisiondirectivanacional.socialmedia %}
+            {% if socialmedia.facebook %}
             <li>
-              <a href="https://www.facebook.com/oajnu"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.facebook.com/{{ socialmedia.facebook }}"><i class="fa fa-facebook"></i></a>
             </li>
+            {% endif %}
+            {% if socialmedia.twitter %}
             <li>
-              <a href="https://twitter.com/oajnu"><i class="fa fa-twitter"></i></a>
+              <a href="https://twitter.com/{{ socialmedia.twitter }}"><i class="fa fa-twitter"></i></a>
             </li>
-            <li>
-              <a href="https://www.youtube.com/channel/UC-GiGIzqzLsN8Fi0EwlsVHA"><i class="fa fa-youtube"></i></a>
-            </li>
-            <li>
-              <a href="https://plus.google.com/+OajnuOrgok"><i class="fa fa-google"></i></a>
-            </li>
+            {% endif %}
+            {% endfor %}
           </ul>
+          {% endif %}
         </div>
         <p>OAJNU &copy; Copyright 2018</p>
         <p>Todos los derechos reservados.</p>
