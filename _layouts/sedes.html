@@ -49,8 +49,8 @@ layout: page
                   <div class="overly">
                     <div class="position-center">
                       <h2>{{ voluntario.name }}</h2>
-                      <h4>{{ site.data.autoridades.{{voluntario.autoridad}}.name }}</h4>
-                      <p>{{ site.data.autoridades.{{voluntario.autoridad}}.description }}</p>
+                      <h4>{{ site.data.autoridades.(voluntario.autoridad).name }}</h4>
+                      <p>{{ site.data.autoridades.(voluntario.autoridad).description }}</p>
                     </div>
                   </div>
                 </a>
