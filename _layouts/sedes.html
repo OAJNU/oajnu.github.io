@@ -49,12 +49,6 @@ layout: page
                   <div class="overly">
                     <div class="position-center">
                       <h2>{{ voluntario.name }}</h2>
-                      <!-- {% for autoridad in site.data.autoridades %}
-                      {% if autoridad.id == voluntario.autoridad %}
-                      <h4>{{ autoridad.name }}</h4>
-                      <p>{{ autoridad.description }}</p>
-                      {% endif %}
-                      {% endfor %} -->
                       <h4>{{ site.data.autoridades.{{voluntario.autoridad}}.name }}</h4>
                       <p>{{ site.data.autoridades.{{voluntario.autoridad}}.description }}</p>
                     </div>
