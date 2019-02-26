@@ -1,3 +1,27 @@
+header .navbar {
+    height: auto;
+    min-height: 0;
+}
+header .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: auto;
+}
+@media(min-width: 768px) {
+    header .navbar-brand {
+        margin-top: 4px;
+    }
+}
+header .navbar-default .navbar-nav {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+@media(max-width: 1024px) {
+    header .navbar-default .navbar-nav li a {
+        padding: 10px 10px;
+    }
+}
+
 #slider.home {
     background: url("../img/slider-bg.jpg") no-repeat;
     background-size: cover;
