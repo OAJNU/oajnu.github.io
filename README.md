@@ -1,4 +1,19 @@
-# _Airspace_ for Jekyll
+# OAJNU
+
+Requiere Bundler 1.x. Si tenés una versión más nueva corré:
+
+```sh
+gem install bundler -v 1.17.2
+bundle _1.17.2_ install
+```
+
+Levantar el server de development con Live Reload (Jekyll 3.7 en adelante):
+
+```sh
+$ jekyll serve --livereload
+```
+
+## _Airspace_ for Jekyll
 ![screenshot](screenshots/home.png "Description goes here")
 
 This Jekyll theme is a port of ThemeFisher's Airspace template. It is released under ThemeFisher's free license, which requires attribution.
@@ -54,5 +69,5 @@ $ bundle install
 
 And run the server:
 ```sh
-$ jekyll serve
+$ jekyll serve --livereload
 ```
