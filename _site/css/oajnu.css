@@ -1,0 +1,137 @@
+@import url(owl.carousel.css);
+@import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
+@import url(airspace.css);
+@import url(style.css);
+@import url(ionicons.min.css);
+@import url(animate.css);
+@import url(responsive.css);
+@import url(syntax.css);
+header .navbar {
+  height: auto;
+  min-height: 0; }
+  header .navbar .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: auto; }
+    @media (min-width: 768px) {
+      header .navbar .navbar-brand {
+        margin-top: 4px; } }
+  header .navbar.navbar-default .navbar-nav {
+    padding-top: 0;
+    padding-bottom: 0; }
+  @media (max-width: 1024px) {
+    header .navbar.navbar-default .navbar-nav li a {
+      padding: 10px 10px; } }
+
+#slider.home {
+  background: url("../img/slider-bg.jpg") no-repeat #333333;
+  background-size: cover;
+  background-attachment: initial;
+  background-position: 15% 50%;
+  padding: 200px 0 280px 0;
+  position: relative; }
+  @media only screen and (max-width: 767px) {
+    #slider.home {
+      padding-top: 90px;
+      padding-bottom: 100px; } }
+  #slider.home:before {
+    opacity: 0.2; }
+  #slider.home .block h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    margin-bottom: 45px;
+    padding: 0;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); }
+    @media (max-width: 768px) {
+      #slider.home .block h1 {
+        font-size: 48px; } }
+  #slider.home .block p {
+    font-size: 23px;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7); }
+
+#intro.home {
+  padding: 40px 0; }
+  @media (min-width: 768px) {
+    #intro.home {
+      padding: 100px 0; } }
+  #intro.home .block h2 {
+    padding-top: 0; }
+  #intro.home .block p {
+    font-size: 18px; }
+  #intro.home .section-quote {
+    padding-bottom: 100px; }
+    #intro.home .section-quote p {
+      font-family: 'Volkhov', serif;
+      font-size: 28px;
+      line-height: 1.6;
+      font-style: italic;
+      text-align: center;
+      color: #333; }
+
+#global-header {
+  background-attachment: initial;
+  background-position: 15% 50%; }
+  #global-header::before {
+    opacity: 0.2; }
+  #global-header .block {
+    text-align: left; }
+  #global-header .block h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    margin-bottom: 45px;
+    padding: 0;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); }
+    @media (max-width: 768px) {
+      #global-header .block h1 {
+        font-size: 48px; } }
+  #global-header .block p {
+    font-size: 23px;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7); }
+
+.donar-button {
+  display: block;
+  cursor: pointer;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  overflow: hidden; }
+  .donar-button:hover {
+    color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); }
+  .donar-button > img {
+    float: left;
+    height: 50px; }
+  .donar-button > h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 70px; }
+  .donar-button.national > h4 {
+    margin-left: 0;
+    text-align: center; }
+
+.video-16-9 {
+  position: relative;
+  padding-bottom: 56.25%; }
+  .video-16-9 > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none; }
