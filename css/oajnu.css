@@ -1,0 +1,34 @@
+#slider.home {
+    background: url("../img/slider-bg.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10% 0%;
+    padding: 200px 0 280px 0;
+    position: relative;
+}
+
+#slider.home .block h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    margin-bottom: 45px;
+    padding: 0;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+@media(max-width: 768px) {
+    #slider.home .block h1 {
+        font-size: 48px;
+    }
+}
+#slider.home .block p {
+    font-size: 23px;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+#slider.home:before {
+    opacity: 0.2;
+}
