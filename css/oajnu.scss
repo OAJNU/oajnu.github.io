@@ -1,0 +1,201 @@
+---
+---
+// Jekyll requires all SCSS files to start with --- ---
+
+@import 'owl.carousel.css';
+@import 'bootstrap.min.css';
+@import 'font-awesome.min.css';
+@import 'airspace.css';
+@import 'style.css';
+@import 'ionicons.min.css';
+@import 'animate.css';
+@import 'responsive.css';
+@import 'syntax.css';
+
+
+header .navbar {
+    height: auto;
+    min-height: 0;
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: auto;
+
+        @media(min-width: 768px) {
+            margin-top: 4px;
+        }
+    }
+    .navbar-default .navbar-nav {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-default .navbar-nav li a {
+        @media(max-width: 1024px) {
+            padding: 10px 10px;
+        }
+    }
+}
+
+
+
+#slider.home {
+    background: url("../img/slider-bg.jpg") no-repeat #333333;
+    background-size: cover;
+    background-attachment: initial;
+    background-position: 15% 50%;
+    padding: 200px 0 280px 0;
+    position: relative;
+
+    @media only screen and (max-width: 767px) {
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+
+    &:before {
+        opacity: 0.2;
+    }
+
+    .block h1 {
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 1.2;
+        letter-spacing: 0;
+        margin-bottom: 45px;
+        padding: 0;
+        text-shadow: 0 3px 10px rgba(0,0,0,0.5);
+
+        @media(max-width: 768px) {
+            font-size: 48px;
+        }
+    }
+
+    .block p {
+        font-size: 23px;
+        line-height: 1.4;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0;
+        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);
+    }
+
+}
+
+
+#intro.home {
+    padding: 40px 0;
+    @media(min-width: 768px) {
+        padding: 100px 0;
+    }
+
+    .block h2 {
+        padding-top: 0;
+    }
+    .block p {
+        font-size: 18px;
+    }
+
+    .section-quote {
+        padding-bottom: 100px;
+        p {
+            font-family: 'Volkhov', serif;
+            font-size: 28px;
+            line-height: 1.6;
+            font-style: italic;
+            text-align: center;
+            color: #333;
+        }
+    }
+
+}
+
+
+
+#global-header {
+    background-attachment: initial;
+    background-position: 15% 50%;
+
+    &::before {
+        opacity: 0.2;
+    }
+
+    .block {
+        text-align: left;
+    }
+
+    .block h1 {
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 1.2;
+        letter-spacing: 0;
+        margin-bottom: 45px;
+        padding: 0;
+        text-shadow: 0 3px 10px rgba(0,0,0,0.5);
+
+        @media(max-width: 768px) {
+            font-size: 48px;
+        }
+    }
+
+    .block p {
+        font-size: 23px;
+        line-height: 1.4;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0;
+        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);
+    }
+}
+
+
+// Donar
+.donar-button {
+    display: block;
+    cursor: pointer;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+
+    &:hover {
+        color: white;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    > img {
+        float: left;
+        height: 50px;
+    }
+
+    > h4 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 70px;
+    }
+
+    &.national {
+        > h4 {
+            margin-left: 0;
+            text-align: center;
+        }
+    }
+}
+
+
+.video-16-9 {
+    // Does the position: absolute and padding: bottom hack to make the video responsive
+    position: relative;
+    padding-bottom: 56.25%;
+
+    > iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+}

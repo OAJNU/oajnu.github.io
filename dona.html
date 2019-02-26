@@ -25,27 +25,36 @@ permalink: /dona/
       <div class="col-md-12 col-sm-12">
         <p>En OAJNU estamos convencidos de que la educación es la herramienta fundamental para construir una sociedad más inclusiva, democrática y promotora de derechos, y que todos tenemos algo que aportar en esta causa.</p>
         <p>Los jóvenes necesitan desarrollar su creatividad y descubrir habilidades diferentes a las que trabajan en la escuela. Nuestros proyectos contemplan todos estos aspectos, ya que confiamos en los jóvenes y los impulsamos a creer en sí mismos, a sentirse líderes de su propia vida y convertirse en los líderes que la sociedad espera.</p>
-        <p>
-          <div class="form-group" style="display: flex; justify-content: center;">
-            <select name="donasede" class="form-control" style="width: 50%;" id="selectdonarp">
-              <option value="elegirsedeparadonar" disabled selected>Seleccioná la sede a la que deseás apoyar:</option>
-              <option value="oajnu-nacional">OAJNU en general</option>
-              <option value="buenos-aires">Buenos Aires</option>
-              <option value="chaco">Chaco</option>
-              <option value="cordoba">Cordoba</option>
-              <option value="corrientes">Corrientes</option>
-              <option value="mendoza">Mendoza</option>
-              <option value="santa-fe">Santa Fé</option>
-              <option value="salta">Salta</option>
-              <option value="san-juan">San Juan</option>
-              <option value="tucuman">Tucumán</option>
-            <select/>
-          </div>
-        </p>
       </div>
     </div>
+
+    <!-- SEDES -->
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-md-offset-4">
+        <a class="donar-button national" href="https://donaronline.org/oajnu/agentes-de-cambio-oajnu-nacional" target="_blank">
+          <h4>Donar a OAJNU Argentina</h4>
+        </a>
+      </div>
+    </div>
+    {% if site.sedes.size > 0 %}
+    <div class="row rowflex" style="display: flex; align-items: center;">
+      {% for sede in site.sedes %}
+      {% if sede.nameurl == "comisiondirectivanacional" %}
+      {% continue %}
+      {% endif %}
+      <div class="col-sm-12 col-md-4">
+        <a class="donar-button" href="{{ sede.donarurl }}" target="_blank">
+          <img src="/img/sedes/{{ sede.nameurl }}.png" alt="">
+          <h4>Donar a Sede {{ sede.title }}</h4>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 </section>
+
+
 
 <!-- Prefiero que me llamen -->
 <section id="call-to-action">
@@ -60,10 +69,3 @@ permalink: /dona/
     </div>
   </div>
 </section>
-
-<script type="text/javascript">
-  let selectdonarp = document.getElementById("selectdonarp");
-  selectdonarp.addEventListener('change',function() {
-    window.location.href = "https://donaronline.org/oajnu/agentes-de-cambio-"+selectdonarp.value;
-});
-</script>
