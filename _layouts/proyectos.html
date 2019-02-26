@@ -8,13 +8,20 @@ layout: page
             <div class="col-md-12">
                 <div class="block">
                     <h1>{{ page.title }}</h1>
-                    <p></p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <div class="rowflex">
-  <img src="/img/proyectos/{{ page.nameurl }}.jpg" alt="">
-  <p>{{ page.description }}</p>
+    <div class="container">
+        <div class="row text-center">
+            <img class="main-logo" src="/img/proyectos/{{ page.nameurl }}.jpg" alt="">  
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">  
+                <p>{{ page.description }}</p>
+            </div>
+        </div>
+    </div>
 </div>

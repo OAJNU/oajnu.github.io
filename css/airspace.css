@@ -25,6 +25,7 @@ h5,
 h6 {
   font-family: 'Roboto', sans-serif;
 }
+
 h2 {
   font-size: 30px;
   font-weight: 400;
@@ -88,6 +89,18 @@ header .navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 26px;
   font-size: 15px;
+}
+header .navbar-default .navbar-nav li a.main-cta {
+  color: white;
+  border: 2px solid #f37334;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+  background: #f37334;
+}
+header .navbar-default .navbar-nav li a.main-cta:hover {
+  color: #f37334;
+  background: transparent;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
