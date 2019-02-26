@@ -25,6 +25,7 @@ h5,
 h6 {
   font-family: 'Roboto', sans-serif;
 }
+
 h2 {
   font-size: 30px;
   font-weight: 400;
@@ -88,6 +89,18 @@ header .navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 26px;
   font-size: 15px;
+}
+header .navbar-default .navbar-nav li a.main-cta {
+  color: white;
+  border: 2px solid #f37334;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+  background: #f37334;
+}
+header .navbar-default .navbar-nav li a.main-cta:hover {
+  color: #f37334;
+  background: transparent;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
@@ -160,6 +173,9 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #intro .section-title p {
   padding-top: 20px;
+}
+#intro .quienes-somos-video {
+  max-width: 100%;
 }
 /*--
 	service Start
@@ -269,26 +285,11 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
-  background-position: 50% 94px;
+  background-color: #f2f2f2;
   width: 100%;
   display: block;
   position: relative;
-  overflow: visible;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  padding: 100px 0;
+  padding: 40px 0;
 }
 #feature h2 {
   font-size: 28px;
@@ -298,11 +299,16 @@ font header .navbar-default .navbar-nav li a:hover {
 #feature p {
   color: #8d8f92;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 #feature .btn-view-works {
   background: #655E7A;
   color: #fff;
   padding: 10px 20px;
+}
+
+#feature .logo-onu {
+  max-width: 200px;
 }
 /*--
 	content Start

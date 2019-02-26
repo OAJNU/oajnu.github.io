@@ -32,3 +32,8 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+.main-logo {
+  max-width: 200px;
+  margin: 24px 0;
+}
