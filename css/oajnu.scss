@@ -25,12 +25,12 @@ header .navbar {
             margin-top: 4px;
         }
     }
-    .navbar-default .navbar-nav {
+    &.navbar-default .navbar-nav {
         padding-top: 0;
         padding-bottom: 0;
     }
 
-    .navbar-default .navbar-nav li a {
+    &.navbar-default .navbar-nav li a {
         @media(max-width: 1024px) {
             padding: 10px 10px;
         }
