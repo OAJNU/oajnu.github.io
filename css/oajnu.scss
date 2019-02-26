@@ -152,7 +152,7 @@ header .navbar {
 .donar-button {
     display: block;
     cursor: pointer;
-    background: orange;
+    background: #1b6ace;
     color: white;
     font-weight: bold;
     border-radius: 6px;
@@ -160,14 +160,16 @@ header .navbar {
     margin-bottom: 15px;
     overflow: hidden;
 
-    &:hover {
+    &:hover, &:active, &:focus {
         color: white;
-        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        background: #2d73ce;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.2);
     }
 
     > img {
         float: left;
         height: 50px;
+        filter: grayscale(100%);
     }
 
     > h4 {
@@ -176,12 +178,6 @@ header .navbar {
         margin-left: 70px;
     }
 
-    &.national {
-        > h4 {
-            margin-left: 0;
-            text-align: center;
-        }
-    }
 }
 
 

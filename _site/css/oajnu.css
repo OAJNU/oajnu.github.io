@@ -104,26 +104,25 @@ header .navbar {
 .donar-button {
   display: block;
   cursor: pointer;
-  background: orange;
+  background: #1b6ace;
   color: white;
   font-weight: bold;
   border-radius: 6px;
   padding: 10px 15px;
   margin-bottom: 15px;
   overflow: hidden; }
-  .donar-button:hover {
+  .donar-button:hover, .donar-button:active, .donar-button:focus {
     color: white;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); }
+    background: #2d73ce;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); }
   .donar-button > img {
     float: left;
-    height: 50px; }
+    height: 50px;
+    filter: grayscale(100%); }
   .donar-button > h4 {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 70px; }
-  .donar-button.national > h4 {
-    margin-left: 0;
-    text-align: center; }
 
 .video-16-9 {
   position: relative;
