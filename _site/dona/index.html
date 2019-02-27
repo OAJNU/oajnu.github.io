@@ -9,20 +9,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+<!-- Fonts -->
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600|Roboto:400,100,300,500,700|Volkhov:400italic" />
+
 <!-- CSS -->
 <link rel="stylesheet" href="/css/oajnu.css" />
 
-<!-- Js -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/owl.carousel.min.js"></script>
-<script src="/js/plugins.js"></script>
-<script src="/js/min/waypoints.min.js"></script>
-<script src="/js/jquery.counterup.js"></script>
-
-
-<script src="/js/main.js"></script>
+<!-- Feature Detection -->
+<script type="text/javascript">
+  function canUseWebP() {
+    var elem = document.createElement('canvas');
+    if (!!(elem.getContext && elem.getContext('2d'))) {
+      // was able or not to get WebP representation
+      return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+    }
+    return false;
+  }
+  if( canUseWebP() ) {
+    document.querySelector('body').classList.add('with-webp');
+  }
+</script>
 
 <!--
 /*
@@ -63,7 +69,6 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://oajnu.github.io">Inicio</a></li>
                 <li><a href="/nosotros">Nosotros</a></li>
                 <li><a href="/#sedes">Sedes</a></li>
                 <li><a href="/#proyectos">Proyectos</a></li>
@@ -79,9 +84,6 @@
   </div>
 </header><!-- header close -->
 
-
-
-    <p></p>
 
     <!-- Slider Start -->
 <section id="global-header">
@@ -248,6 +250,18 @@
     </div>
   </div>
 </footer>
+
+
+<!-- Js -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js" defer><\/script>')</script>
+<script src="/js/bootstrap.min.js" defer></script>
+<script src="/js/owl.carousel.min.js" defer></script>
+<script src="/js/plugins.js" defer></script>
+<script src="/js/min/waypoints.min.js" defer></script>
+<script src="/js/jquery.counterup.js" defer></script>
+
+<script src="/js/main.js" defer></script>
 
 
     </body>

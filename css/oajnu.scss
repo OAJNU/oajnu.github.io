@@ -1,16 +1,16 @@
 ---
+# Jekyll requires SCSS files to start with this comment
 ---
-// Jekyll requires all SCSS files to start with --- ---
 
-@import 'owl.carousel.css';
-@import 'bootstrap.min.css';
-@import 'font-awesome.min.css';
-@import 'airspace.css';
-@import 'style.css';
-@import 'ionicons.min.css';
-@import 'animate.css';
-@import 'responsive.css';
-@import 'syntax.css';
+@import "owl.carousel";
+@import 'bootstrap.min';
+@import 'font-awesome.min';
+@import 'airspace';
+@import 'style';
+@import 'ionicons.min';
+@import 'animate';
+@import 'responsive';
+@import 'syntax';
 
 
 header .navbar {
@@ -48,6 +48,8 @@ header .navbar {
     position: relative;
 
     @media only screen and (max-width: 767px) {
+        background-image: url("../img/slider-bg.mobile.jpg");
+        background-position: 30% 50%;
         padding-top: 90px;
         padding-bottom: 100px;
     }
@@ -145,6 +147,23 @@ header .navbar {
         letter-spacing: 0;
         text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);
     }
+
+    .social-icons {
+        margin: 0;
+        margin-top: -30px;
+    }
+    .social-icons .main-cta {
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .social-icons > span {
+        @media(max-width: 480px) {
+            display: block;
+        }
+    }
+    .social-icons i {
+        color: #fff;
+    }
 }
 
 
@@ -152,23 +171,32 @@ header .navbar {
 .donar-button {
     display: block;
     cursor: pointer;
-    background: #1b6ace;
-    color: white;
     font-weight: bold;
     border-radius: 6px;
     padding: 10px 15px;
     margin-bottom: 15px;
     overflow: hidden;
 
+    color: white;
+    border: 2px solid #f37334;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 200ms ease-in-out;
+    background: #f37334;
+
     &:hover, &:active, &:focus {
-        color: white;
-        background: #2d73ce;
-        box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        color: #f37334;
+        background: white;
+
+        > img {
+            filter: grayscale(100%);
+        }
     }
 
     > img {
         float: left;
-        height: 50px;
+        max-height: 50px;
+        max-width: 55px;
         filter: grayscale(100%);
     }
 
@@ -180,6 +208,23 @@ header .navbar {
 
 }
 
+
+a.main-cta {
+    color: white;
+    border: 2px solid #f37334;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 200ms ease-in-out;
+    background: #f37334;
+    padding: 10px 26px;
+    font-size: 15px;
+    display: inline-block;
+
+    &:hover {
+        color: #f37334;
+        background: #fff;
+    }
+}
 
 .video-16-9 {
     // Does the position: absolute and padding: bottom hack to make the video responsive

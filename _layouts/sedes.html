@@ -7,8 +7,10 @@ layout: page
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h1>{{ page.title }}</h1>
-                    <div class="social-icons" style="margin: 20px auto;">
+                    <h1>Sede {{ page.title }}</h1>
+                    <div class="social-icons">
+                      <a class="main-cta" href="{{ page.donarurl }}" target="_blank">Doná a la Sede {{ page.title }}</a>
+                      <span>
                       {% for socialmedia in page.socialmedia %}
                       {% if socialmedia.facebook %}
                       <a href="https://www.facebook.com/{{ socialmedia.facebook }}"><i class="fa fa-facebook"></i></a>
@@ -20,8 +22,9 @@ layout: page
                       <a href="https://twitter.com/{{ socialmedia.twitter }}"><i class="fa fa-twitter"></i></a>
                       {% endif %}
                       {% endfor %}
+                      </span>
                     </div>
-                    <p></p>
+                    <p>{{ page.email }}</p>
                 </div>
             </div>
         </div>
@@ -79,7 +82,7 @@ layout: page
             {% assign proyectossedes = proyecto.sedes | join: " " %}
             {% if proyectossedes contains page.nameurl %}
             <div class="clients-logo-img">
-              <a href="/proyectos/{{ proyecto.nameurl }}"><img src="/img/proyectos/{{ proyecto.nameurl }}.jpg" alt="Features"></a>
+              <a href="/proyectos/{{ proyecto.nameurl }}"><img src="/img/proyectos/{{ proyecto.nameurl }}.png" alt="Features"></a>
             </div>
             {% endif %}
             {% endfor %}
