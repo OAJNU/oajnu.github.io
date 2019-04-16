@@ -26,18 +26,18 @@ permalink: /contactanos/
           <ul class="address-block">
             {% for sede in site.sedes %}
             <li>
-              {{ sede.title }}<br>
+              {{ sede.title | uppercase }}<br>
               <i class="fa fa-envelope-o"></i><a href="mailto:{{ sede.email }}">{{ sede.email }}</a>
               {% if sede.socialmedia.size > 0 %}
               {% for socialmedia in sede.socialmedia %}
               {% if socialmedia.facebook %}
-               | <a href="https://www.facebook.com/{{ socialmedia.facebook }}"><i class="fa fa-facebook"></i>/{{ socialmedia.facebook }}</a>
+               | <a href="https://www.facebook.com/{{ socialmedia.facebook }}"><i class="fa fa-facebook"></i>{{ socialmedia.facebook }}</a>
               {% endif %}
               {% if socialmedia.instagram %}
-              | <a href="https://instagram.com/{{ socialmedia.instagram }}"><i class="fa fa-instagram"></i>/{{ socialmedia.instagram }}</a>
+              | <a href="https://instagram.com/{{ socialmedia.instagram }}"><i class="fa fa-instagram"></i>{{ socialmedia.instagram }}</a>
               {% endif %}
               {% if socialmedia.twitter %}
-              | <a href="https://twitter.com/{{ socialmedia.twitter }}"><i class="fa fa-twitter"></i>/{{ socialmedia.twitter }}</a>
+              | <a href="https://twitter.com/{{ socialmedia.twitter }}"><i class="fa fa-twitter"></i>{{ socialmedia.twitter }}</a>
               {% endif %}
               {% endfor %}
               {% endif %}
