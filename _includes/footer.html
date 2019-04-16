@@ -9,9 +9,8 @@
               <button class="btn btn-default" type="submit">Suscribirme al newsletter</button>
           </form>
           <ul class="social-icons" style="margin: 20px auto;">
-              {% site.sedes.comisiondirectivanacional.socialmedia[0] %}
-              <!-- {% site.sedes.comisiondirectivanacional.socialmedia.facebook %} -->
               {% for socialmedia in site.sedes.comisiondirectivanacional.socialmedia %}
+              a
               <li>
                 <a href="https://www.{{ socialmedia[0] }}.com/{{ socialmedia[1] }}" title="{{ socialmedia[0] }}"><i class="fa fa-{{ socialmedia[0] }}"></i></a>
               </li>
