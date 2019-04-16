@@ -4,17 +4,18 @@
     <div class="row">
       <div class="col-md-12">
         <div class="footer-manu">
-            <form id="newsletterform" style="display: flex; align-items: center; justify-content: center;">
-                <input type="text" class="form-control" placeholder="Email">
-                <button class="btn btn-default" type="submit">Suscribirme al newsletter</button>
-            </form>
+          <form id="newsletterform" style="display: flex; align-items: center; justify-content: center;">
+              <input type="text" class="form-control" placeholder="Email">
+              <button class="btn btn-default" type="submit">Suscribirme al newsletter</button>
+          </form>
           <ul class="social-icons" style="margin: 20px auto;">
-            <li>
-              <a href="https://www.facebook.com/{{ site.sedes.comisiondirectivanacional.socialmedia.facebook }}" title="Facebook"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/{{ site.sedes.comisiondirectivanacional.socialmedia.twitter }}" title="Twitter"><i class="fa fa-twitter"></i></a>
-            </li>
+              {% if site.sedes.comisiondirectivanacional.socialmedia.size > 0 %}
+              {% for socialmedia in site.sedes.comisiondirectivanacional.socialmedia %}
+              <li>
+                <a href="https://www.{{ socialmedia[0] }}.com/{{ socialmedia[1] }}" title="{{ socialmedia[0] }}"><i class="fa fa-{{ socialmedia[0] }}"></i></a>
+              </li>
+              {% endfor %}
+              {% endif %}
           </ul>
         </div>
         <p>OAJNU &copy; Copyright 2019</p>

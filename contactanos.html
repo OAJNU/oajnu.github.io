@@ -27,10 +27,10 @@ permalink: /contactanos/
             {% for sede in site.sedes %}
             <li>
               {{ sede.title | uppercase }}<br>
-              <i class="fa fa-envelope-o"></i><a href="mailto:{{ sede.email }}">{{ sede.email }}</a>
+              <i class="fa fa-envelope-o"></i><a href="mailto:{{ sede.email }}"  title="Email">{{ sede.email }}</a>
               {% if sede.socialmedia.size > 0 %}
               {% for socialmedia in sede.socialmedia %}
-               | <a href="https://www.{{ socialmedia[0] }}.com/{{ socialmedia[1] }}"><i class="fa fa-{{ socialmedia[0] }}" style="margin-right: 0;"></i>/{{ socialmedia[1] }}</a>
+               | <a href="https://www.{{ socialmedia[0] }}.com/{{ socialmedia[1] }}" title="{{ socialmedia[0] }}"><i class="fa fa-{{ socialmedia[0] }}" style="margin-right: 0;"></i> {{ socialmedia[1] }}</a>
               {% endfor %}
               {% endif %}
             </li>
