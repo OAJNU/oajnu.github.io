@@ -9,13 +9,11 @@
               <button class="btn btn-default" type="submit">Suscribirme al newsletter</button>
           </form>
           <ul class="social-icons" style="margin: 20px auto;">
-              {% if site.sedes.comisiondirectivanacional.socialmedia.size > 0 %}
               {% for socialmedia in site.sedes.comisiondirectivanacional.socialmedia %}
               <li>
                 <a href="https://www.{{ socialmedia[0] }}.com/{{ socialmedia[1] }}" title="{{ socialmedia[0] }}"><i class="fa fa-{{ socialmedia[0] }}"></i></a>
               </li>
               {% endfor %}
-              {% endif %}
           </ul>
         </div>
         <p>OAJNU &copy; Copyright 2019</p>
