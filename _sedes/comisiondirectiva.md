@@ -1,8 +1,8 @@
 ---
 layout: sedes
-title: Comisión Directiva Nacional
+title: Comisión Directiva
 donarurl: https://donaronline.org/oajnu/agentes-de-cambio-oajnu-nacional
-nameurl: comisiondirectivanacional
+nameurl: comisiondirectiva
 email: info@oajnu.org
 socialmedia: 
   facebook: oajnu
