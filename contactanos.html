@@ -26,7 +26,7 @@ permalink: /contactanos/
           <ul class="address-block">
             {% for sede in site.sedes %}
             <li>
-              {{ sede.title | uppercase }}<br>
+              <h2>{{ sede.title | uppercase }}</h2><br>
               <i class="fa fa-envelope-o"></i><a href="mailto:{{ sede.email }}"  title="Email">{{ sede.email }}</a>
               {% if sede.socialmedia.size > 0 %}
               {% for socialmedia in sede.socialmedia %}
