@@ -32,7 +32,7 @@ permalink: /contactanos/
               {% for socialmedia in sede.socialmedia %}
                | <a href="https://www.{{ socialmedia[0] }}.com/{{ socialmedia[1] }}"><i class="fa fa-{{ socialmedia[0] }}"></i>{{ socialmedia[1] }}</a>
               {% endfor %}
-              {% for socialmedia in sede.socialmedia %}
+              <!-- {% for socialmedia in sede.socialmedia %}
               {% if socialmedia.facebook %}
                | <a href="https://www.facebook.com/{{ socialmedia.facebook }}"><i class="fa fa-facebook"></i>{{ socialmedia.facebook }}</a>
               {% endif %}
@@ -42,7 +42,7 @@ permalink: /contactanos/
               {% if socialmedia.twitter %}
               | <a href="https://twitter.com/{{ socialmedia.twitter }}"><i class="fa fa-twitter"></i>{{ socialmedia.twitter }}</a>
               {% endif %}
-              {% endfor %}
+              {% endfor %} -->
               {% endif %}
             </li>
             {% endfor %}
