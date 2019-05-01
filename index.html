@@ -72,7 +72,7 @@ permalink: /
     </div>
     <div class="row rowflex" style="display: flex; align-items: center;">
       {% for sede in site.sedes %}
-      {% if sede.nameurl == "comisiondirectivanacional" %}
+      {% if sede.nameurl == "comisiondirectiva" %}
       {% continue %}
       {% endif %}
       <div class="col-sm-12 col-md-4">
@@ -117,7 +117,7 @@ permalink: /
         <div class="block">
           <h2>SÉ VOLUNTARIO</h2>
           <p>Transformá realidades vos también, sumate a nuestro equipo</p>
-          <a class="btn btn-default btn-call-to-action" href="/quiero-ser-voluntario" >Quiero ser voluntario</a>
+          <a class="btn btn-default btn-call-to-action" href="https://forms.gle/ykwc9i2Z44wQqEFF8" >Quiero ser voluntario</a>
         </div>
       </div>
     </div>
@@ -157,8 +157,8 @@ permalink: /
       <div class="col-md-6">
         {% if site.data.funfacts.size > 0 %}
         <div class="block">
-          {% for ff in site.data.funfacts %}
           <ul class="counter-box clearfix">
+            {% for ff in site.data.funfacts %}
             <li>
               <div class="block">
                 <i class="{{ ff.icon }}"></i>
@@ -177,7 +177,6 @@ permalink: /
           <div id="testimonial-slider" class="owl-carousel">
             {% for tm in site.data.testimonials %}
             <div>
-                <!-- <img src="img/cotation.png" alt="IMG"> -->
                 <p>"{{ tm.testimonial }}"</p>
                 <div class="user">
                   <img src="{{ tm.image }}" alt="Pepole">
@@ -198,26 +197,37 @@ permalink: /
     <div class="row">
       <div class="section-title text-center">
         <h2>Preguntas Frecuentes</h2>
-        <p>Aquí podremos resolver las dudas que casualmente tengas.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        {% if site.data.faq.size > 0 %}
-        <div class="block">
-          {% for ff in site.data.faq %}
-          <ul class="counter-box clearfix">
-            <li>
-              <div class="block">
-                <h4>{{ ff.pregunta }}</h4>
-                <span>{{ ff.respuesta }}</span>
-              </div>
-            </li>
+        <!-- <p>Aquí podremos resolver las dudas que casualmente tengas.</p> -->
+        <div class="col-md-12">
+          {% if site.data.faq.size > 0 %}
+          <div class="block">
+            {% for ff in site.data.faq %}
+            <button class="accordion">{{ ff.pregunta }}</button>
+            <div class="panel">
+              <p>{{ ff.respuesta }}</p>
+            </div>
             {% endfor %}
-          </ul>
+          </div>
+          {% endif %}
         </div>
-        {% endif %}
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight){
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>

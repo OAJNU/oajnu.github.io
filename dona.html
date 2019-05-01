@@ -33,19 +33,15 @@ permalink: /dona/
     </div>
     {% if site.sedes.size > 0 %}
     <div class="row rowflex" style="display: flex; align-items: center;">
-      <div class="col-sm-12 col-md-6">
-        <a class="donar-button national" href="https://donaronline.org/oajnu/agentes-de-cambio-oajnu-nacional" target="_blank">
-          <h4>Donar a OAJNU Argentina</h4>
-        </a>
-      </div>
       {% for sede in site.sedes %}
-      {% if sede.nameurl == "comisiondirectivanacional" %}
-      {% continue %}
-      {% endif %}
       <div class="col-sm-12 col-md-6">
         <a class="donar-button" href="{{ sede.donarurl }}" target="_blank">
           <img src="/img/sedes/{{ sede.nameurl }}.png" alt="">
+          {% if sede.nameurl == "comisiondirectiva" %}
+          <h4>Donar a OAJNU Argentina</h4>
+          {% else %}
           <h4>Donar a Sede {{ sede.title }}</h4>
+          {% endif %}
         </a>
       </div>
       {% endfor %}

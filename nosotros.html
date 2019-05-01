@@ -31,15 +31,17 @@ permalink: /nosotros/
             <div class="block">
               <div class="portfolio-menu" id="nosotros">
                 <ul id="nosotroscategorias">
-                    <!-- <li class="filter" data-filter="all">Todos</li> -->
                     {% for sede in site.sedes %}
+                    {% if sede.nameurl == "comisiondirectiva" %}
                     <li class="filter" data-filter=".{{ sede.nameurl }}">{{ sede.title }}</li>
+                    {% endif %}
                     {% endfor %}
                 </ul>
               </div>
               <div class="portfolio-contant">
                 <ul id="portfolio-contant-active">
                   {% for voluntario in site.data.voluntarios %}
+                  {% if voluntario.sede == "comisiondirectiva" %}
                   <li class="mix {% for sede in site.sedes %}{% if sede.nameurl == voluntario.sede %}{{ sede.nameurl }}{% endif %}{% endfor %}">
                     <a>
                       <img src="/img/voluntarios/2018/{{ voluntario.sede }}/{{ voluntario.nameurl }}.jpg" alt="" onerror="this.src='/img/voluntarios/profile.jpg'">
@@ -53,6 +55,7 @@ permalink: /nosotros/
                       </div>
                     </a>
                   </li>
+                  {% endif %}
                   {% endfor %}
                 </ul>
               </div>
