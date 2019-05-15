@@ -23,9 +23,9 @@ permalink: /contactanos/
     <div id="contact-box" class="row">
       <div class="col-md-12 col-sm-12">
         <div class="block">
-          <ul class="address-block">
+          <ul class="address-block row">
             {% for sede in site.sedes %}
-            <li>
+            <li class="col-lg-4 col-md-6 col-sm-12">
               <h2 style="padding-bottom: 0;">{{ sede.title | uppercase }}</h2>
               {% if sede.socialmedia.size > 0 %}
               {% for socialmedia in sede.socialmedia %}
