@@ -1,6 +1,6 @@
 ---
 layout: sedes
-title: Cordoba
+title: Córdoba
 donarurl: https://donaronline.org/oajnu/agentes-de-cambio-cordoba
 nameurl: cordoba
 email: info.cordoba@oajnu.org

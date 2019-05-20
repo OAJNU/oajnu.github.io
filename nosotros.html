@@ -32,7 +32,7 @@ permalink: /nosotros/
               <div class="portfolio-menu" id="nosotros">
                 <ul id="nosotroscategorias">
                     {% for sede in site.sedes %}
-                    {% if sede.nameurl == "comisiondirectiva" %}
+                    {% if sede.nameurl == "acomisiondirectiva" %}
                     <li class="filter" data-filter=".{{ sede.nameurl }}">{{ sede.title }}</li>
                     {% endif %}
                     {% endfor %}
@@ -41,7 +41,7 @@ permalink: /nosotros/
               <div class="portfolio-contant">
                 <ul id="portfolio-contant-active">
                   {% for voluntario in site.data.voluntarios %}
-                  {% if voluntario.sede == "comisiondirectiva" %}
+                  {% if voluntario.sede == "acomisiondirectiva" %}
                   <li class="mix {% for sede in site.sedes %}{% if sede.nameurl == voluntario.sede %}{{ sede.nameurl }}{% endif %}{% endfor %}">
                     <a>
                       <img src="/img/voluntarios/2018/{{ voluntario.sede }}/{{ voluntario.nameurl }}.jpg" alt="" onerror="this.src='/img/voluntarios/profile.jpg'">
@@ -86,7 +86,7 @@ permalink: /nosotros/
         <p style="text-align: justify;">Desprendiéndose de la estructura de pensar principios, visión y misión, se reunió todo eso en una sola frase: <strong>Somos la fuerza de jóvenes voluntarios empoderando a pares, para construir una sociedad cada vez más inclusiva, democrática y promotora de derechos</strong>. En este lema se resumen los principales ejes que hoy rigen nuestra organización: voluntariado, juventud, empoderamiento,  inclusión, democracia  y promoción de derechos.  El centro no está en el liderazgo ni en la participación, sino en empoderar: brindar herramientas para incidir y modificar la realidad.</p>
         <p style="text-align: justify;">Con este nuevo impulso en el 2013  se presenta el nuevo plan estratégico, 2014-2018, en el que se instaura la nueva identidad y los objetivos a alcanzar: Más voluntarios, más jóvenes destinatarios, más donantes y más voces. A fines de este año nace la Sede Chaco.</p>
         <p style="text-align: justify;">Este giro dio lugar al resurgimiento y refuerzo de distintos proyectos comunitarios, de incidencia directa en barrios y comunidades. OAJNU comienza a acercarse cada vez más a muchos lugares diferentes, con nuevos proyectos como Arte en Vuelo en Chaco y Corrientes, o Comunitario en Córdoba. </p>
-        <p style="text-align: justify;">Hoy OAJNU sigue creciendo en muchísimos frentes, desde las aulas y desde los barrios, posicionándose como organización de jóvenes y proponiendo espacios de participación. En 2015 se formaron los grupos de trabajo de Tucumán y Montevideo, Uruguay, y así continúan sumándose cada vez más jóvenes que buscan construir una sociedad cada vez más inclusiva, democrática y promotora de derechos.</p>
+        <p style="text-align: justify;">Hoy OAJNU sigue creciendo en muchísimos frentes, desde las aulas y desde los barrios, posicionándose como organización de jóvenes y proponiendo espacios de participación. En 2015 se formaroón el grupo de trabajo de Tucumán y así continúan sumándose cada vez más jóvenes que buscan construir una sociedad cada vez más inclusiva, democrática y promotora de derechos.</p>
       </div>
     </div>
   </div>

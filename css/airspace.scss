@@ -1,4 +1,4 @@
-/* #F37434
+/* #e05206
  * This is the main css file that ships with the airspace theme.
  * In airspace, it is called style.scss
  * However, style.scss now holds additional styles for this jekyll port. (Not written by ThemeFisher)
@@ -10,8 +10,10 @@
 /*--
 	Common Css
 --*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -20,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h2 {
@@ -55,7 +57,7 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
+  font-family: 'Ubuntu', sans-serif;
   font-style: italic;
   color: #666;
 }
@@ -82,6 +84,9 @@ header .navbar-default .navbar-nav {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+header .navbar-default .navbar-nav li:hover {
+  filter: opacity(50%);
+}
 header .navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 26px;
@@ -89,14 +94,14 @@ header .navbar-default .navbar-nav li a {
 }
 header .navbar-default .navbar-nav li a.main-cta {
   color: white;
-  border: 2px solid #f37334;
+  border: 2px solid #e05206;
   border-radius: 10px;
   font-weight: 600;
   transition: all 200ms ease-in-out;
-  background: #f37334;
+  background: #e05206;
 }
 header .navbar-default .navbar-nav li a.main-cta:hover {
-  color: #f37334;
+  color: #e05206;
   background: transparent;
 }
 font header .navbar-default .navbar-nav li a:hover {
@@ -125,14 +130,14 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: #F37434;
+  background-color: #e05206;
   opacity: 0.8;
 }
 #slider .block {
   color: #E3E3E4;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -142,7 +147,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
 }
@@ -186,7 +191,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #service .service-item i {
   font-size: 60px;
-  color: #F37434;
+  color: #e05206;
 }
 #service .service-item h4 {
   padding-top: 20px;
@@ -199,6 +204,11 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
   font-size: 14px;
   line-height: 1.8;
+}
+#service .service-item img:hover,
+#service .service-item img:active,
+#service .service-item img:focus {
+  filter: opacity(50%);
 }
 /*--
 	call-to-action Start
@@ -221,7 +231,7 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #F37434;
+  background: #e05206;
   opacity: 0.8;
 }
 #call-to-action h2 {
@@ -258,7 +268,7 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #F37434;
+  background: #e05206;
 }
 #vernoticias h2 {
   padding-bottom: 20px;
@@ -403,6 +413,11 @@ font header .navbar-default .navbar-nav li a:hover {
 #proyectos .clients-logo-img img{
   width: 100px;
 }
+#proyectos .clients-logo-img img:hover,
+#proyectos .clients-logo-img img:hover,
+#proyectos .clients-logo-img img:hover {
+  filter: opacity(50%);
+}
 
 .rowflex {
   display: flex;
@@ -434,7 +449,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: #F37434;
+  background-color: #e05206;
   opacity: 0.8;
 }
 #global-header .block {
@@ -689,7 +704,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: #F37434;
+  background-color: #e05206;
   opacity: 0.8;
 }
 #slider-contact .block {
@@ -698,7 +713,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-left: 90px;
 }
 #slider-contact .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -708,7 +723,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider-contact .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
@@ -745,10 +760,10 @@ font header .navbar-default .navbar-nav li a:hover {
 #contact-form .block button {
   width: 100%;
   height: 60px;
-  background: #F37434;
+  background: #e05206;
   border: none;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
 }
 /*--
@@ -788,7 +803,7 @@ font header .navbar-default .navbar-nav li a:hover {
 .google-map #map {
   width: 100%;
   height: 300px;
-  background-color: #ff432e;
+  background-color: #e05206;
 }
 #contact-box {
   padding-top: 35px;
@@ -798,7 +813,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 #contact-box .block h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   color: #000;
   font-size: 28px;

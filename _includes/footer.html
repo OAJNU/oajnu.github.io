@@ -9,11 +9,11 @@
               <button class="btn btn-default" type="submit">Suscribirme al newsletter</button>
           </form> -->
           {% for sede in site.sedes %}
-          {%- if sede.nameurl == 'comisiondirectiva' -%}
+          {%- if sede.nameurl == 'acomisiondirectiva' -%}
           <ul class="social-icons" style="margin: 20px auto;">
             {%- for socialmedia in sede.socialmedia -%}
             <li>
-              <a href="https://www.{{ socialmedia[0] }}.com/{{ socialmedia[1] }}" title="{{ socialmedia[0] | capitalize }}"><i class="fa fa-{{ socialmedia[0] }}"></i></a>
+              <a href="https://www.{{ socialmedia[0] }}.com/{{ socialmedia[1] }}" title="{{ socialmedia[0] | capitalize }}" target="_blank"><i class="fa fa-{{ socialmedia[0] }}"></i></a>
             </li>
             {%- endfor -%}
           </ul>

@@ -72,12 +72,12 @@ permalink: /
     </div>
     <div class="row rowflex" style="display: flex; align-items: center;">
       {% for sede in site.sedes %}
-      {% if sede.nameurl == "comisiondirectiva" %}
+      {% if sede.nameurl == "acomisiondirectiva" %}
       {% continue %}
       {% endif %}
       <div class="col-sm-12 col-md-4">
         <div class="service-item">
-          <a href="/sedes/{{ sede.nameurl }}"><img src="/img/sedes/{{ sede.nameurl }}.png" alt="{{ sede.title }}" style="width: 100px;"></a>
+          <a href="/sedes/{{ sede.nameurl }}"><img class="sedeimg" src="/img/sedes/{{ sede.nameurl }}.png" alt="{{ sede.title }}" style="width: 100px;"></a>
           <h4>{{ sede.title }}</h4>
         </div>
       </div>
@@ -117,7 +117,7 @@ permalink: /
         <div class="block">
           <h2>SÉ VOLUNTARIO</h2>
           <p>Transformá realidades vos también, sumate a nuestro equipo</p>
-          <a class="btn btn-default btn-call-to-action" href="https://forms.gle/ykwc9i2Z44wQqEFF8" >Quiero ser voluntario</a>
+          <a class="btn btn-default btn-call-to-action" href="https://forms.gle/ykwc9i2Z44wQqEFF8" target="_blank">Quiero ser voluntario</a>
         </div>
       </div>
     </div>
@@ -191,13 +191,12 @@ permalink: /
     </div>
   </div>
 </section>
-<!-- FAQ -->
+
 <section id="faq">
   <div class="container">
     <div class="row">
       <div class="section-title text-center">
         <h2>Preguntas Frecuentes</h2>
-        <!-- <p>Aquí podremos resolver las dudas que casualmente tengas.</p> -->
         <div class="col-md-12">
           {% if site.data.faq.size > 0 %}
           <div class="block">
@@ -216,6 +215,14 @@ permalink: /
 </section>
 
 <script>
+
+  let sedeimg = document.querySelectorAll(".sedeimg");
+  sedeimg.forEach(e => {
+    e.addEventListener("click", function() {
+      e.src 
+    });
+  })
+
   var acc = document.getElementsByClassName("accordion");
   var i;
   

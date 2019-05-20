@@ -80,7 +80,7 @@ header .navbar {
     .block p {
         font-size: 23px;
         line-height: 1.4;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         font-weight: 400;
         letter-spacing: 0;
         text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);
@@ -105,7 +105,7 @@ header .navbar {
     .section-quote {
         padding-bottom: 100px;
         p {
-            font-family: 'Volkhov', serif;
+            font-family: 'Ubuntu', sans-serif;
             font-size: 28px;
             line-height: 1.6;
             font-style: italic;
@@ -147,7 +147,7 @@ header .navbar {
     .block p {
         font-size: 23px;
         line-height: 1.4;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         font-weight: 400;
         letter-spacing: 0;
         text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);
@@ -183,14 +183,14 @@ header .navbar {
     overflow: hidden;
 
     color: white;
-    border: 2px solid #f37334;
+    border: 2px solid #e05206;
     border-radius: 10px;
     font-weight: 600;
     transition: all 200ms ease-in-out;
-    background: #f37334;
+    background: #e05206;
 
     &:hover, &:active, &:focus {
-        color: #f37334;
+        color: #e05206;
         background: white;
 
         > img {
@@ -202,7 +202,7 @@ header .navbar {
         float: left;
         max-height: 50px;
         max-width: 55px;
-        filter: grayscale(100%);
+        filter: grayscale(100%) brightness(200%);
     }
 
     > h4 {
@@ -216,17 +216,17 @@ header .navbar {
 
 a.main-cta {
     color: white;
-    border: 2px solid #f37334;
+    border: 2px solid #e05206;
     border-radius: 10px;
     font-weight: 600;
     transition: all 200ms ease-in-out;
-    background: #f37334;
+    background: #e05206;
     padding: 10px 26px;
     font-size: 15px;
     display: inline-block;
 
     &:hover {
-        color: #f37334;
+        color: #e05206;
         background: #fff;
     }
 }
