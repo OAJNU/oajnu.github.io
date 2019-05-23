@@ -23,8 +23,27 @@ permalink: /contactanos/
     <div id="contact-box" class="row">
       <div class="col-md-12 col-sm-12">
         <div class="block">
+          <ul class="address-block row" style="display: flex; align-items: center; justify-content: center;">
+            {% for sede in site.sedes %}
+            {% if sede.nameurl == "acomisiondirectiva" %}
+            <li class="col-lg-4 col-md-6 col-sm-12">
+              <h2 style="padding-bottom: 0;">{{ sede.title | uppercase }}</h2>
+              {% if sede.socialmedia.size > 0 %}
+              {% for socialmedia in sede.socialmedia %}
+              <a href="https://www.{{ socialmedia[0] }}.com/{{ socialmedia[1] }}" title="{{ socialmedia[0] }}" target="_blank"><i class="fa fa-{{ socialmedia[0] }}"></i></a>
+              {% endfor %}
+              {% endif %}
+              <br><i class="fa fa-envelope-o"></i><a href="mailto:{{ sede.email }}"  title="Email">{{ sede.email }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+          <br>
           <ul class="address-block row">
             {% for sede in site.sedes %}
+            {% if sede.nameurl == "acomisiondirectiva" %}
+            {% continue %}
+            {% endif %}
             <li class="col-lg-4 col-md-6 col-sm-12">
               <h2 style="padding-bottom: 0;">{{ sede.title | uppercase }}</h2>
               {% if sede.socialmedia.size > 0 %}
