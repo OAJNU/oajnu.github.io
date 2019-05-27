@@ -9,7 +9,9 @@ sedes:
 objectives: 
 target: 
 linkinscription: 
-faq:
-- pregunta: "¿?"
-  respuesta: " "
+# faq:
+#   - pregunta: "¿Pregunta?"
+#     respuesta: "Respuesta"
+#   - pregunta: "¿Pregunta?"
+#     respuesta: "Respuesta"
 ---

@@ -2,19 +2,19 @@
 #  title: 
 #  testimonial: 
 #  image: 
-- name: Juan Gomez
-  title: Participante MNU 2016
-  testimonial: "Lo mejor que me pasó."
-  image: img/item-img1.jpg
-- name: Pedrito Rodriguez
-  title: Argentina MNU 2017
-  testimonial: "Si no fuera por esto no hubiera elegido Relaciones Internacionales y no sabría que hacer con mi vida."
-  image: img/item-img1.jpg
-- name: Juanita Juanola
-  title: Participante del Modelo de Senadores
-  testimonial: "Me ayudo a tener muchos amigos y a pasarla muy bien."
-  image: img/item-img1.jpg
-- name: Federico Tevez
-  title: Voluntario
-  testimonial: "No tenía nada más que hacer así que aca estoy."
-  image: img/item-img1.jpg
+# - name: Juan Gomez
+#   title: Participante MNU 2016
+#   testimonial: "Lo mejor que me pasó."
+#   image: img/item-img1.jpg
+# - name: Pedrito Rodriguez
+#   title: Argentina MNU 2017
+#   testimonial: "Si no fuera por esto no hubiera elegido Relaciones Internacionales y no sabría que hacer con mi vida."
+#   image: img/item-img1.jpg
+# - name: Juanita Juanola
+#   title: Participante del Modelo de Senadores
+#   testimonial: "Me ayudo a tener muchos amigos y a pasarla muy bien."
+#   image: img/item-img1.jpg
+# - name: Federico Tevez
+#   title: Voluntario
+#   testimonial: "No tenía nada más que hacer así que aca estoy."
+#   image: img/item-img1.jpg

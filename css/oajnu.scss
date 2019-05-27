@@ -12,6 +12,9 @@
 @import 'responsive';
 @import 'syntax';
 
+html{
+    scroll-behavior: smooth;
+}
 
 header .navbar {
     height: auto;
