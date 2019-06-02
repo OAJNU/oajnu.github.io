@@ -16,7 +16,7 @@ keep_files:
 # Site settings
 title: "OAJNU"
 subtitle: "Somos una organización de jóvenes que trabajamos por y para otros jóvenes, brindándoles herramientas para que ellos mismos incidan en su entorno."
-url: "https://oajnu.github.io" # the base hostname & protocol for your site
+url: "https://oajnu.org" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
 cover: "/assets/cover.png"
