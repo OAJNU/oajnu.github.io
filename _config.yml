@@ -29,7 +29,7 @@ sass:
   style: compressed
 
 # Google analytics
-ga_tracking_id: "UA-58908028-3"
+google_analytics: "UA-58908028-3"
 
 # Category descriptions (for archive pages)
 descriptions:
