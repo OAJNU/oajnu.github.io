@@ -17,5 +17,5 @@
 [[redirects]]
   from = "/blog"
   to = "https://blog.oajnu.org"
-  status = 200
+  status = 301
   force = true
