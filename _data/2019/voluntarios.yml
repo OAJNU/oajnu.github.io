@@ -3,7 +3,7 @@
   sede: buenosaires
   autoridad: secretariadeadministracionfinanzasylegales
 - nameurl: cbarresi
-  name: Carolina Barresi López
+  name: Carolina Barresi López 
   sede: buenosaires
   autoridad: secretariadefortalecimientodelvoluntariado
 - nameurl: nzanini
@@ -11,7 +11,7 @@
   sede: buenosaires
   autoridad: secretariadecomunicacion
 - nameurl: mvmartinez
-  name: María Victoria Martínez
+  name: María Victoria Martínez 
   sede: chaco
   autoridad: secretariadeadministracionfinanzasylegales
 - nameurl: lvallejos
@@ -19,7 +19,7 @@
   sede: chaco
   autoridad: secretariadecomunicacion
 - nameurl: jmpereyra
-  name: Juan Manuel Pereyra
+  name: Juan Manuel Pereyra 
   sede: chaco
   autoridad: secretariadedesarrollodefondos
 - nameurl: eromero
@@ -79,11 +79,11 @@
   sede: corrientes
   autoridad: secretariadecoordinaciondeproyectos
 - nameurl: jferreira
-  name: Joaquin Ferreira
+  name: Joaquin Ferreira 
   sede: corrientes
   autoridad: secretariadecomunicacion
 - nameurl: vmaiocchi
-  name: Victoria Maiocchi
+  name: Victoria Maiocchi 
   sede: corrientes
   autoridad: secretariadefortalecimientodelvoluntariado
 - nameurl: azanaboni
@@ -91,7 +91,7 @@
   sede: mendoza
   autoridad: secretariadefortalecimientodelvoluntariado
 - nameurl: crey
-  name: Maria Clara Rey
+  name: Maria Clara Rey 
   sede: mendoza
   autoridad: direccionejecutiva
 - nameurl: gdelpozo
@@ -147,7 +147,7 @@
   sede: salta
   autoridad: secretariadecomunicacion
 - nameurl: arios
-  name: Rios Andrea
+  name: Rios Andrea 
   sede: salta
   autoridad: secretariadecoordinaciondeproyectos
 - nameurl: mmodica
@@ -166,12 +166,32 @@
   name: Nahuel David Quispe Márquez
   sede: salta
   autoridad: secretariadedesarrollodefondos
+- nameurl: milagrosbustos
+  name: María Milagros Bustos
+  sede: sanjuan
+  autoridad: direccionejecutiva
+- nameurl: gerodriguez
+  name: M. German Rodriguez R.
+  sede: sanjuan
+  autoridad: secretariadecomunicacion
+- nameurl: efuentes
+  name: Ezequiel Fuentes
+  sede: sanjuan
+  autoridad: vicedireccionejecutiva
+- nameurl: pmontano
+  name: Pablo Montaño
+  sede: sanjuan
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: ftorres
+  name: Florencia Torres
+  sede: sanjuan
+  autoridad: secretariadedesarrollodefondos
 - nameurl: bcejas
-  name: Belén Cejas
+  name: Belén Cejas 
   sede: tucuman
   autoridad: secretariadecomunicacion
 - nameurl: aisaschebaia
-  name: Agustina Isas Chebaia
+  name: Agustina Isas Chebaia 
   sede: tucuman
   autoridad: direccionejecutiva
 - nameurl: czarba
@@ -183,7 +203,7 @@
   sede: tucuman
   autoridad: secretariadefortalecimientodelvoluntariado
 - nameurl: nmarquez
-  name: Nico Márquez
+  name: Nico Márquez 
   sede: tucuman
   autoridad: secretariadecoordinaciondeproyectos
 - nameurl: aarguello
