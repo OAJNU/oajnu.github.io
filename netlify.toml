@@ -14,6 +14,10 @@
     [context.dev.environment]
         JEKYLL_ENV = "development"
 
+[context.master]
+    [context.dev.environment]
+        JEKYLL_ENV = "development"
+
 [[redirects]]
   from = "/blog"
   to = "https://blog.oajnu.org"
