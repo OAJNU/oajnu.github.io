@@ -13,7 +13,7 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Titulo', name: 'title', widget: 'string' }
       - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
-      - { label: 'Sede', name: 'tags', widget: 'select', options: [{ label: "Comisión Directiva", value: "acomisiondirectiva" },{ label: "Buenos Aires", value: "buenosaires" },{ label: "Chaco", value: "chaco" },{ label: "Córdoba", value: "cordoba" },{ label: "Corrientes", value: "corrientes" },{ label: "Mendoza", value: "mendoza" },{ label: "Rosario", value: "rosario" },{ label: "Salta", value: "salta" },{ label: "San Juan", value: "sanjuan" },{ label: "Tucumaán", value: "tucuman" }] }
+      - { label: 'Sede', name: 'tags', widget: 'select', options: [{ label: "Comisión Directiva", value: "acomisiondirectiva" },{ label: "Buenos Aires", value: "buenosaires" },{ label: "Chaco", value: "chaco" },{ label: "Córdoba", value: "cordoba" },{ label: "Corrientes", value: "corrientes" },{ label: "Mendoza", value: "mendoza" },{ label: "Rosario", value: "rosario" },{ label: "Salta", value: "salta" },{ label: "Tucumán", value: "tucuman" }] }
       - { label: 'Autor', name: 'author', widget: 'string' }
       - { label: 'Publicado', name: 'published', widget: 'boolean', default: true }
       - { label: 'Contenido', name: 'body', widget: 'markdown' }
