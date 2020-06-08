@@ -15,7 +15,7 @@
         JEKYLL_ENV = "development"
 
 [context.master]
-    [context.dev.environment]
+    [context.master.environment]
         JEKYLL_ENV = "development"
 
 [[redirects]]
