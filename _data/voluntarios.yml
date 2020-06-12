@@ -38,28 +38,32 @@
   name: Brenda Silva
   sede: chaco
   autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: davidlopez
-  name: David Lopez
+- nameurl: gbravo
+  name: Guillermina Bravo
   sede: acomisiondirectiva
   autoridad: secretarianacionaldecomunicacion
-- nameurl: mlopezcechini
-  name: Marcela Inés López Cechini
+- nameurl: rsalva
+  name: Rosario Salva
+  sede: acomisiondirectiva
+  autoridad: secretarianacionaldedesarrollodefondos
+- nameurl: mmodica
+  name: Mauro Módica
   sede: acomisiondirectiva
   autoridad: secretarianacionaldecoordinaciondeproyectos
-- nameurl: sbermudez
-  name: Ana Sofía Bermúdez
+- nameurl: mmontoya
+  name: Mauro Montoya
   sede: acomisiondirectiva
   autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: jrusso
-  name: José Carlos Russo
+- nameurl: lvallejos
+  name: Lucas Vallejos
   sede: acomisiondirectiva
   autoridad: secretarianacionaldepromociondederechos
-- nameurl: gcodutti
-  name: Georgina Antonella Codutti
+- nameurl: paolacarrizo
+  name: Paola Carrizo
   sede: acomisiondirectiva
   autoridad: secretarianacionaldeadministracionfinanzasylegales
-- nameurl: eaguero
-  name: Imanol Agüero
+- nameurl: sbermudez
+  name: Ana Sofía Bermúdez
   sede: acomisiondirectiva
   autoridad: presidencia
 - nameurl: isilvero
