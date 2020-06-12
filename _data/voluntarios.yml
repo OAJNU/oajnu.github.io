@@ -66,52 +66,48 @@
   name: Ana Sofía Bermúdez
   sede: acomisiondirectiva
   autoridad: presidencia
-- nameurl: isilvero
-  name: María Inés Silvero
+- nameurl: csequeira
+  name: Constanza Sequeira
   sede: corrientes
   autoridad: direccionejecutiva
-- nameurl: skraemer
-  name: Simón Kraemer
+- nameurl: paulagonzalez
+  name: Paula Gonzalez
   sede: corrientes
   autoridad: secretariadeadministracionfinanzasylegales
-- nameurl: mmattos
-  name: Milagros María del Rosario Mattos Castañeda
-  sede: corrientes
-  autoridad: secretarianacionaldepromociondederechos
-- nameurl: guillermopalacios
-  name: Guillermo Hernán Palacios
+- nameurl: ibarboza
+  name: Iván Barboza
   sede: corrientes
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: jferreira
-  name: Joaquin Ferreira
+- nameurl: mmattos
+  name: Milagros Mattos Castañeda
   sede: corrientes
   autoridad: secretariadecomunicacion
 - nameurl: vmaiocchi
   name: Victoria Maiocchi
   sede: corrientes
   autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: azanaboni
-  name: Arrigo Zanaboni
+- nameurl: criveros
+  name: Candela Riveros
   sede: mendoza
   autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: crey
-  name: Maria Clara Rey
+- nameurl: pmuscia
+  name: Paula Muscia
   sede: mendoza
   autoridad: direccionejecutiva
-- nameurl: gdelpozo
-  name: Gastón Del Pozo
+- nameurl: jmgomez
+  name: Juan Manuel Gomez
   sede: mendoza
   autoridad: secretariadeadministracionfinanzasylegales
-- nameurl: gbravo
-  name: Guillermina Bravo
+- nameurl: ftittarelli
+  name: Franco Tittarelli
   sede: mendoza
   autoridad: secretariadecomunicacion
 - nameurl: amartinez
   name: Alejandro Daniel Martínez
   sede: mendoza
   autoridad: secretariadedesarrollodefondos
-- nameurl: dfunes
-  name: Diana Funes
+- nameurl: fgimenez
+  name: Florencia Gimenez
   sede: mendoza
   autoridad: secretariadecoordinaciondeproyectos
 - nameurl: fterzaghi
