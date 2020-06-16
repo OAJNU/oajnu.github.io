@@ -82,8 +82,8 @@
   name: Milagros Mattos Castañeda
   sede: corrientes
   autoridad: secretariadecomunicacion
-- nameurl: vmaiocchi
-  name: Victoria Maiocchi
+- nameurl: fviota
+  name: Facundo Viota
   sede: corrientes
   autoridad: secretariadefortalecimientodelvoluntariado
 - nameurl: criveros
@@ -150,7 +150,7 @@
   name: Luciana Martines
   sede: salta
   autoridad: secretariadeadministracionfinanzasylegales
-- nameurl: davendano
+- nameurl: davendaño
   name: Diego Avendaño
   sede: salta
   autoridad: secretariadecomunicacion
@@ -162,6 +162,10 @@
   name: Nicolás Guerrero
   sede: salta
   autoridad: secretariadecoordinaciondeproyectos
+- nameurl: jrech
+  name: Jeniffer Rech Bravo
+  sede: salta
+  autoridad: secretarianacionaldepromociondederechos
 - nameurl: mdiaz
   name: Micaela Díaz
   sede: salta
@@ -178,18 +182,38 @@
   name: Augusto Nicolás Márquez
   sede: tucuman
   autoridad: direccionejecutiva
+- nameurl: rmoya
+  name: Rocío Belén Moya
+  sede: tucuman
+  autoridad: direccionejecutiva
+- nameurl: acuello
+  name: Arturo Andrés Cuello
+  sede: tucuman
+  autoridad: secretariadeadministracionfinanzasylegales
 - nameurl: czarba
   name: Ana Carla Zarbá
   sede: tucuman
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: ggesavan
-  name: María Guadalupe Gesaván
-  sede: tucuman
-  autoridad: secretariadefortalecimientodelvoluntariado
 - nameurl: achazarreta
   name: Gonzalo Agustín Chazarreta
   sede: tucuman
   autoridad: secretariadecoordinaciondeproyectos
+- nameurl: pamelavaldez
+  name: Pamela Florencia Valdez Correa
+  sede: tucuman
+  autoridad: secretariadedesarrollodefondos
+- nameurl: ggesavan
+  name: María Guadalupe Gesaván
+  sede: tucuman
+  autoridad: secretariadefortalecimientodelvoluntariado
+- nameurl: lnadal
+  name: Laura Nadal
+  sede: tucuman
+  autoridad: secretarianacionaldepromociondederechos
+- nameurl: ana.alonso
+  name: Ana Agustina Alonso
+  sede: tucuman
+  autoridad: secretarianacionaldepromociondederechos
 - nameurl: vtesta
   name: Valentina Testa
   sede: cordoba
