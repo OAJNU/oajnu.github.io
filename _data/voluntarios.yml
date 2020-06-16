@@ -1,13 +1,25 @@
-- nameurl: aportillo
-  name: Alexis Portillo
+- nameurl: jsturza
+  name: Juan Segundo Turza
   sede: buenosaires
-  autoridad: secretariadeadministracionfinanzasylegales
-- nameurl: cbarresi
-  name: Carolina Barresi López
+  autoridad: direccionejecutiva
+- nameurl: mvautier
+  name: Mercedes Vautier
   sede: buenosaires
-  autoridad: secretariadefortalecimientodelvoluntariado
+  autoridad: secretariadepromocióndederechos
 - nameurl: nzanini
   name: Nuri Zanini
+  sede: buenosaires
+  autoridad: secretariadedesarrollodefondos
+- nameurl: lcorimayo
+  name: Lourdes Corimayo
+  sede: buenosaires
+  autoridad: secretariadeadministracionfinanzasylegales
+- nameurl: memacchi
+  name: Eugenia Macchi
+  sede: buenosaires
+  autoridad: secretariadefortalecimientodelvoluntariado
+- nameurl: nenciso
+  name: Nelson Enciso
   sede: buenosaires
   autoridad: secretariadecomunicacion
 - nameurl: mvmartinez
@@ -110,32 +122,24 @@
   name: Florencia Gimenez
   sede: mendoza
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: fterzaghi
-  name: Fiorella Terzaghi
+- nameurl: mlorenzo
+  name: Mauro Lorenzo Benoist
   sede: rosario
-  autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: mconiglio
-  name: Mirco Coniglio
-  sede: rosario
-  autoridad: secretariadecomunicacion
-- nameurl: blombardi
-  name: Bianca Lombardi
-  sede: rosario
-  autoridad: secretariadecoordinaciondeproyectos
+  autoridad: direccionejecutiva
 - nameurl: jmvitullo
   name: Juan Manuel Vitullo
   sede: rosario
   autoridad: direccionejecutiva
-- nameurl: mlorenzo
-  name: Mauro Lorenzo Benoist
+- nameurl: mapintos
+  name: Miguel Pintos
   sede: rosario
   autoridad: secretariadecomunicacion
-- nameurl: afoglia
-  name: Andrea Foglia
+- nameurl: lcerda
+  name: Lara Cerda
   sede: rosario
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: amigliorati
-  name: Agostina Migliorati
+- nameurl: asantamaria
+  name: Alina Santamaria
   sede: rosario
   autoridad: secretariadedesarrollodefondos
 - nameurl: lyanez
