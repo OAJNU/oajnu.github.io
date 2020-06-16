@@ -138,55 +138,76 @@
   name: Agostina Migliorati
   sede: rosario
   autoridad: secretariadedesarrollodefondos
-- nameurl: dcalisaya
-  name: Daiana C. Calisaya Velarde
+- nameurl: lyanez
+  name: Luz Yañez
+  sede: salta
+  autoridad: direcciónejecutiva
+- nameurl: scastillo
+  name: Sergio Castillo
+  sede: salta
+  autoridad: direcciónejecutiva
+- nameurl: lmartines
+  name: Luciana Martines
   sede: salta
   autoridad: secretariadeadministracionfinanzasylegales
-- nameurl: chautecoeur
-  name: Camila Hautecoeur
+- nameurl: davendano
+  name: Diego Avendaño
   sede: salta
   autoridad: secretariadecomunicacion
-- nameurl: arios
-  name: Rios Andrea
+- nameurl: asalica
+  name: Agustina Salica
   sede: salta
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: mmodica
-  name: Mauro Nicolás Modica Posse
+- nameurl: nguerrero
+  name: Nicolás Guerrero
   sede: salta
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: fguerrero
-  name: Florencia García Guerrero
+- nameurl: mdiaz
+  name: Micaela Díaz
   sede: salta
   autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: ggutierrez
-  name: Guillermo Lautaro Gutiérrez Caliuolo
-  sede: salta
-  autoridad: secretariadecomunicacion
-- nameurl: nquispe
-  name: Nahuel David Quispe Márquez
+- nameurl: bmedrano
+  name: Belén Medrano
   sede: salta
   autoridad: secretariadedesarrollodefondos
-- nameurl: bcejas
-  name: Belén Cejas
+- nameurl: mlera
+  name: Malena Jimena Lera
   sede: tucuman
   autoridad: secretariadecomunicacion
-- nameurl: aisaschebaia
-  name: Agustina Isas Chebaia
+- nameurl: nmarquez
+  name: Augusto Nicolás Márquez
   sede: tucuman
   autoridad: direccionejecutiva
 - nameurl: czarba
   name: Ana Carla Zarbá
   sede: tucuman
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: dfernandez
-  name: Daiana Soto Fernández
+- nameurl: ggesavan
+  name: María Guadalupe Gesaván
   sede: tucuman
   autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: nmarquez
-  name: Nico Márquez
+- nameurl: achazarreta
+  name: Gonzalo Agustín Chazarreta
   sede: tucuman
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: aarguello
-  name: Analia Marisel Arguello
-  sede: corrientes
+- nameurl: vtesta
+  name: Valentina Testa
+  sede: cordoba
   autoridad: direccionejecutiva
+- nameurl: clagos
+  name: Conrado Lagos
+  sede: cordoba
+  autoridad: secretariadeadministracionfinanzasylegales
+- nameurl: lherrador
+  name: Leonel Herrador
+  sede: cordoba
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: vgimenez
+  name: Valentina Gimenez
+  sede: cordoba
+  autoridad: secretariadecomunicacion
+- nameurl: bgomez
+  name: Brenda Gomez
+  sede: cordoba
+  autoridad: secretariadefortalecimientodelvoluntariado
+
