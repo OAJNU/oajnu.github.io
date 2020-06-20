@@ -26,32 +26,32 @@
   name: Nelson Enciso
   sede: buenosaires
   autoridad: secretariadecomunicacion
+- nameurl: malvaredo
+  name: María Eugenia Alvaredo Schegtel
+  sede: chaco
+  autoridad: direccionejecutiva  
 - nameurl: mvmartinez
   name: María Victoria Martínez
   sede: chaco
   autoridad: secretariadeadministracionfinanzasylegales
-- nameurl: lvallejos
-  name: Lucas Vallejos Romero
+- nameurl: mperez
+  name: Mariana Perez
   sede: chaco
   autoridad: secretariadecomunicacion
-- nameurl: jmpereyra
-  name: Juan Manuel Pereyra
+- nameurl: jserezo
+  name: Juan Ignacio Serezo
   sede: chaco
   autoridad: secretariadedesarrollodefondos
 - nameurl: eromero
   name: Eliana Romero
   sede: chaco
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: malvaredo
-  name: María Eugenia Alvaredo Schegtel
+- nameurl: jmpereyra
+  name: Juan Manuel Pereyra
   sede: chaco
-  autoridad: direccionejecutiva
-- nameurl: jolysinsky
-  name: Ignacio Olysinsky
-  sede: chaco
-  autoridad: secretariadecomunicacion
-- nameurl: bsilva
-  name: Brenda Silva
+  autoridad: secretariadecoordinaciondeproyectos  
+- nameurl: lgonzalez
+  name: Lourdes González
   sede: chaco
   autoridad: secretariadefortalecimientodelvoluntariado
 - nameurl: gbravo
