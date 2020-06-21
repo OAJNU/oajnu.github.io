@@ -5,7 +5,7 @@
 - nameurl: mvautier
   name: Mercedes Vautier
   sede: buenosaires
-  autoridad: secretarianacionaldepromocióndederechos
+  autoridad: secretarianacionaldepromociondederechos
 - nameurl: nzanini
   name: Nuri Zanini
   sede: buenosaires
@@ -149,11 +149,11 @@
 - nameurl: lyanez
   name: Luz Yañez
   sede: salta
-  autoridad: direcciónejecutiva
+  autoridad: direccionejecutiva
 - nameurl: scastillo
   name: Sergio Castillo
   sede: salta
-  autoridad: direcciónejecutiva
+  autoridad: direccionejecutiva
 - nameurl: lmartines
   name: Luciana Martines
   sede: salta
