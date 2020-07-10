@@ -134,16 +134,24 @@
   name: Juan Manuel Vitullo
   sede: rosario
   autoridad: direccionejecutiva
-- nameurl: mapintos
+- nameurl: mapinto
   name: Miguel Pintos
   sede: rosario
   autoridad: secretariadecomunicacion
 - nameurl: lcerda
-  name: Lara Cerda
+  name: Lara Cerdá
   sede: rosario
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: asantamaria
+- nameurl: vzampar
+  name: Valentina Zampar
+  sede: rosario
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: acsantamaria
   name: Alina Santamaria
+  sede: rosario
+  autoridad: secretariadedesarrollodefondos
+- nameurl: bdulcich
+  name: Blas Dulcich
   sede: rosario
   autoridad: secretariadedesarrollodefondos
 - nameurl: lyanez
