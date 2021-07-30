@@ -54,32 +54,32 @@
   name: Lourdes González
   sede: chaco
   autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: gbravo
-  name: Guillermina Bravo
+- nameurl: lyanez
+  name: Luz María Yañez
   sede: acomisiondirectiva
-  autoridad: secretarianacionaldecomunicacion
-- nameurl: rsalva
-  name: Rosario Salva
+  autoridad: secretarianacionaldecomunicacionestrategica
+- nameurl: bgomez
+  name: Brenda Janet Gómez
   sede: acomisiondirectiva
-  autoridad: secretarianacionaldedesarrollodefondos
-- nameurl: mmodica
-  name: Mauro Módica
+  autoridad: secretarianacionaldelegales
+- nameurl: mlopezcechini
+  name: Marcela Inés López Cechini
   sede: acomisiondirectiva
-  autoridad: secretarianacionaldecoordinaciondeproyectos
+  autoridad: secretarianacionaldeimpacto
 - nameurl: mmontoya
-  name: Mauro Montoya
+  name: Mauro Jairo Montoya Lucato
   sede: acomisiondirectiva
   autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: lvallejos
-  name: Lucas Vallejos
+- nameurl: amartinez
+  name: Alejandro Daniel Martínez
   sede: acomisiondirectiva
-  autoridad: secretarianacionaldepromociondederechos
-- nameurl: paolacarrizo
-  name: Paola Carrizo
+  autoridad: secretarianacionaldecaptaciondedonantes
+- nameurl: dfernandez
+  name: Daiana Gisele Soto Fernández
   sede: acomisiondirectiva
-  autoridad: secretarianacionaldeadministracionfinanzasylegales
-- nameurl: sbermudez
-  name: Ana Sofía Bermúdez
+  autoridad: secretarianacionaldefinanzas
+- nameurl: vtesta
+  name: Valentina Testa
   sede: acomisiondirectiva
   autoridad: presidencia
 - nameurl: csequeira
@@ -134,16 +134,28 @@
   name: Juan Manuel Vitullo
   sede: rosario
   autoridad: direccionejecutiva
-- nameurl: mapintos
-  name: Miguel Pintos
+- nameurl: mapinto
+  name: Miguel Pinto
   sede: rosario
   autoridad: secretariadecomunicacion
 - nameurl: lcerda
-  name: Lara Cerda
+  name: Lara Cerdá
   sede: rosario
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: asantamaria
+- nameurl: ogarnero
+  name: Ornella Garnero
+  sede: rosario
+  autoridad: secretarianacionaldepromociondederechos  
+- nameurl: vzampar
+  name: Valentina Zampar
+  sede: rosario
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: acsantamaria
   name: Alina Santamaria
+  sede: rosario
+  autoridad: secretariadedesarrollodefondos
+- nameurl: bdulcich
+  name: Blas Dulcich
   sede: rosario
   autoridad: secretariadedesarrollodefondos
 - nameurl: lyanez
@@ -242,4 +254,3 @@
   name: Brenda Gomez
   sede: cordoba
   autoridad: secretariadefortalecimientodelvoluntariado
-
