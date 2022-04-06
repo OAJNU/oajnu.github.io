@@ -18,6 +18,7 @@
   name: Abigail Evans
   sede: buenosaires
   autoridad: secretariadecomunicacion
+  
 - nameurl: vmartinez
   name: María Victoria Martínez
   sede: chaco
@@ -34,6 +35,7 @@
   name: Gastón Oliva Wuerich
   sede: chaco
   autoridad: secretariadedesarrollodefondos
+  
 - nameurl: vgimenez
   name: Valentina Gimenez
   sede: acomisiondirectiva
@@ -66,6 +68,7 @@
   name: Paula Muscia
   sede: acomisiondirectiva
   autoridad: secretarianacionaldefinanciaciones
+  
 - nameurl: jcojeda
   name: Juan Carlos Ojeda
   sede: corrientes
@@ -90,30 +93,20 @@
   name: Guillermo Palacios
   sede: corrientes
   autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: criveros
-  name: Candela Riveros
-  sede: mendoza
-  autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: pmuscia
-  name: Paula Muscia
-  sede: mendoza
-  autoridad: direccionejecutiva
-- nameurl: jmgomez
-  name: Juan Manuel Gomez
+
+- nameurl: bsoria
+  name: Belén Soria
   sede: mendoza
   autoridad: secretariadeadministracionfinanzasylegales
-- nameurl: ftittarelli
-  name: Franco Tittarelli
+- nameurl: vozcariz
+  name: Veronica Oscariz
+  sede: mendoza
+  autoridad: secretariadeadministracionfinanzasylegales
+- nameurl: sspongia
+  name: Sofi Spongia
   sede: mendoza
   autoridad: secretariadecomunicacion
-- nameurl: amartinez
-  name: Alejandro Daniel Martínez
-  sede: mendoza
-  autoridad: secretariadedesarrollodefondos
-- nameurl: fgimenez
-  name: Florencia Gimenez
-  sede: mendoza
-  autoridad: secretariadecoordinaciondeproyectos
+
 - nameurl: mlorenzo
   name: Mauro Lorenzo Benoist
   sede: rosario
