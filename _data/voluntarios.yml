@@ -143,42 +143,32 @@
   name: Blas Dulcich
   sede: rosario
   autoridad: secretariadedesarrollodefondos
-- nameurl: lyanez
-  name: Luz Yañez
+  
+- nameurl: acampos
+  name: Abraham Campos
   sede: salta
   autoridad: direccionejecutiva
-- nameurl: scastillo
-  name: Sergio Castillo
-  sede: salta
-  autoridad: direccionejecutiva
-- nameurl: lmartines
-  name: Luciana Martines
+- nameurl: mmodica
+  name: Mauro Modica
   sede: salta
   autoridad: secretariadeadministracionfinanzasylegales
-- nameurl: davendaño
-  name: Diego Avendaño
+- nameurl: amolina
+  name: Agustín Molina
   sede: salta
   autoridad: secretariadecomunicacion
-- nameurl: asalica
-  name: Agustina Salica
+- nameurl: amartinez
+  name: Agustina Martinez
   sede: salta
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: nguerrero
-  name: Nicolás Guerrero
-  sede: salta
-  autoridad: secretariadecoordinaciondeproyectos
-- nameurl: jrech
-  name: Jeniffer Rech Bravo
-  sede: salta
-  autoridad: secretarianacionaldepromociondederechos
-- nameurl: mdiaz
-  name: Micaela Díaz
+- nameurl: csalvador
+  name: Cintia Salvador
   sede: salta
   autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: bmedrano
-  name: Belén Medrano
+- nameurl: cseara
+  name: Camila Seara
   sede: salta
   autoridad: secretariadedesarrollodefondos
+  
 - nameurl: mlera
   name: Malena Jimena Lera
   sede: tucuman
