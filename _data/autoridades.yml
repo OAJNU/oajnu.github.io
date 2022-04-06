@@ -4,6 +4,9 @@
 - id: secretarianacionaldefinanzas
   name: Secretaría Nacional de Finanzas
   description: "Dirige la administración de los recursos y gestiona las finanzas de la organización."
+- id: secretarianacionaldefinanciaciones
+  name: Secretaría Nacional de Financiaciones
+  description: "Se encarga de"
 - id: secretarianacionaldecaptaciondedonantes
   name: Secretaría Nacional de Captación de Donantes
   description: "Genera estrategias y políticas de sustentabilidad; y potencia los vínculos con nuestros más grandes aliados, los donantes."
