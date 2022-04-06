@@ -66,24 +66,28 @@
   name: Paula Muscia
   sede: acomisiondirectiva
   autoridad: secretarianacionaldefinanciaciones
-- nameurl: csequeira
-  name: Constanza Sequeira
+- nameurl: jcojeda
+  name: Juan Carlos Ojeda
   sede: corrientes
   autoridad: direccionejecutiva
-- nameurl: paulagonzalez
-  name: Paula Gonzalez
-  sede: corrientes
-  autoridad: secretariadeadministracionfinanzasylegales
-- nameurl: ibarboza
-  name: Iván Barboza
-  sede: corrientes
-  autoridad: secretariadecoordinaciondeproyectos
-- nameurl: mmattos
-  name: Milagros Mattos Castañeda
+- nameurl: vmaciel
+  name: Victoria Maciel
   sede: corrientes
   autoridad: secretariadecomunicacion
-- nameurl: fviota
-  name: Facundo Viota
+- nameurl: pgonzalez
+  name: Paula González
+  sede: corrientes
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: vmaidana
+  name: Venecia Maidana 
+  sede: corrientes
+  autoridad: secretariadedesarrollodefondos
+- nameurl: fdure
+  name: Franco Duré 
+  sede: corrientes
+  autoridad: secretariadecomunicacion
+- nameurl: gpalacios
+  name: Guillermo Palacios
   sede: corrientes
   autoridad: secretariadefortalecimientodelvoluntariado
 - nameurl: criveros
