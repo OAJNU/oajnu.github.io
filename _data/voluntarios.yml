@@ -209,23 +209,28 @@
   name: Ana Agustina Alonso
   sede: tucuman
   autoridad: secretarianacionaldepromociondederechos
-- nameurl: vtesta
-  name: Valentina Testa
+  
+- nameurl: bgatti
+  name: Bahia Gatti
   sede: cordoba
   autoridad: direccionejecutiva
-- nameurl: clagos
-  name: Conrado Lagos
+- nameurl: cbachi
+  name: Camila Bachiglione
   sede: cordoba
   autoridad: secretariadeadministracionfinanzasylegales
-- nameurl: lherrador
-  name: Leonel Herrador
+- nameurl: jrubio
+  name: Juan Ignacio Rubio
   sede: cordoba
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: vgimenez
-  name: Valentina Gimenez
+- nameurl: sortega
+  name: Sol Ortega
   sede: cordoba
   autoridad: secretariadecomunicacion
-- nameurl: bgomez
-  name: Brenda Gomez
+- nameurl: vgrenon
+  name: Valentina Grenon
   sede: cordoba
   autoridad: secretariadefortalecimientodelvoluntariado
+- nameurl: prinna
+  name: Paola Rinna
+  sede: cordoba
+  autoridad: secretariadedesarrollodefondos
