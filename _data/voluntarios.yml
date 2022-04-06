@@ -35,6 +35,10 @@
   name: Gastón Oliva Wuerich
   sede: chaco
   autoridad: secretariadedesarrollodefondos
+- nameurl: jserezo
+  name: Juan Ignacio Serezo
+  sede: chaco
+  autoridad: secretariadefortalecimientodelvoluntariado
   
 - nameurl: vgimenez
   name: Valentina Gimenez
@@ -110,39 +114,40 @@
   name: Sofi Spongia
   sede: mendoza
   autoridad: secretariadecomunicacion
+- nameurl: ctroncoso
+  name: Camila Troncoso
+  sede: mendoza
+  autoridad: secretariadefortalecimientodelvoluntariado
+- nameurl: clavilla
+  name: Candela Lavilla
+  sede: mendoza
+  autoridad: secretariadecoordinaciondeproyectos
 
-- nameurl: mlorenzo
-  name: Mauro Lorenzo Benoist
-  sede: rosario
-  autoridad: direccionejecutiva
-- nameurl: jmvitullo
-  name: Juan Manuel Vitullo
-  sede: rosario
-  autoridad: direccionejecutiva
-- nameurl: mapinto
-  name: Miguel Pinto
-  sede: rosario
-  autoridad: secretariadecomunicacion
 - nameurl: lcerda
   name: Lara Cerdá
   sede: rosario
-  autoridad: secretariadecoordinaciondeproyectos
-- nameurl: ogarnero
-  name: Ornella Garnero
+  autoridad: direccionejecutiva
+- nameurl: dcortina
+  name: Diamela Cortina
   sede: rosario
-  autoridad: secretarianacionaldepromociondederechos  
-- nameurl: vzampar
-  name: Valentina Zampar
+  autoridad: secretariadeadministracionfinanzasylegales
+- nameurl: mlorenzo
+  name: Mauro Lorenzo Benoist
+  sede: rosario
+  autoridad: secretariadecomunicacion
+- nameurl: fterzaghi
+  name: Fiorella Terzaghi
+  sede: rosario
+  autoridad: secretariadefortalecimientodelvoluntariado
+- nameurl: aayala
+  name: Alejo Ayala
   sede: rosario
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: acsantamaria
-  name: Alina Santamaria
+- nameurl: jegidi
+  name: Jazmin Egidi
   sede: rosario
   autoridad: secretariadedesarrollodefondos
-- nameurl: bdulcich
-  name: Blas Dulcich
-  sede: rosario
-  autoridad: secretariadedesarrollodefondos
+
   
 - nameurl: acampos
   name: Abraham Campos
@@ -169,46 +174,22 @@
   sede: salta
   autoridad: secretariadedesarrollodefondos
   
-- nameurl: mlera
-  name: Malena Jimena Lera
-  sede: tucuman
-  autoridad: secretariadecomunicacion
-- nameurl: nmarquez
-  name: Augusto Nicolás Márquez
-  sede: tucuman
-  autoridad: direccionejecutiva
-- nameurl: rmoya
-  name: Rocío Belén Moya
-  sede: tucuman
-  autoridad: direccionejecutiva
 - nameurl: acuello
   name: Arturo Andrés Cuello
   sede: tucuman
+  autoridad: direccionejecutiva
+- nameurl: vvaldez
+  name: Vanina Aylen Valdez
+  sede: tucuman
   autoridad: secretariadeadministracionfinanzasylegales
-- nameurl: czarba
-  name: Ana Carla Zarbá
+- nameurl: kchocobar
+  name: Karina Chocobar
   sede: tucuman
   autoridad: secretariadecoordinaciondeproyectos
-- nameurl: achazarreta
-  name: Gonzalo Agustín Chazarreta
-  sede: tucuman
-  autoridad: secretariadecoordinaciondeproyectos
-- nameurl: pamevaldez
-  name: Pamela Florencia Valdez Correa
-  sede: tucuman
-  autoridad: secretariadedesarrollodefondos
-- nameurl: ggesavan
-  name: María Guadalupe Gesaván
+- nameurl: aserrano
+  name: Ana Luz Serrano
   sede: tucuman
   autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: lnadal
-  name: Laura Nadal
-  sede: tucuman
-  autoridad: secretarianacionaldepromociondederechos
-- nameurl: ana.alonso
-  name: Ana Agustina Alonso
-  sede: tucuman
-  autoridad: secretarianacionaldepromociondederechos
   
 - nameurl: bgatti
   name: Bahia Gatti
