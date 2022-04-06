@@ -54,20 +54,20 @@
   name: Lourdes González
   sede: chaco
   autoridad: secretariadefortalecimientodelvoluntariado
-- nameurl: lyanez
-  name: Luz María Yañez
+- nameurl: vgimenez
+  name: Valentina Gimenez
   sede: acomisiondirectiva
   autoridad: secretarianacionaldecomunicacionestrategica
-- nameurl: bgomez
-  name: Brenda Janet Gómez
+- nameurl: lyañez
+  name: Luz María Yañez
   sede: acomisiondirectiva
   autoridad: secretarianacionaldelegales
-- nameurl: mlopezcechini
-  name: Marcela Inés López Cechini
+- nameurl: lherrador
+  name: Leonel Lautaro Herrador
   sede: acomisiondirectiva
   autoridad: secretarianacionaldeimpacto
-- nameurl: mmontoya
-  name: Mauro Jairo Montoya Lucato
+- nameurl: ggesavan
+  name: Guadalupe Gesaván
   sede: acomisiondirectiva
   autoridad: secretariadefortalecimientodelvoluntariado
 - nameurl: amartinez
@@ -82,6 +82,10 @@
   name: Valentina Testa
   sede: acomisiondirectiva
   autoridad: presidencia
+- nameurl: pmuscia
+  name: Paula Muscia
+  sede: acomisiondirectiva
+  autoridad: secretarianacionaldefinanciaciones
 - nameurl: csequeira
   name: Constanza Sequeira
   sede: corrientes
