@@ -18,34 +18,22 @@
   name: Abigail Evans
   sede: buenosaires
   autoridad: secretariadecomunicacion
-- nameurl: malvaredo
-  name: María Eugenia Alvaredo Schegtel
-  sede: chaco
-  autoridad: direccionejecutiva  
-- nameurl: mvmartinez
+- nameurl: vmartinez
   name: María Victoria Martínez
   sede: chaco
+  autoridad: direccionejecutiva  
+- nameurl: mperujo
+  name: Micaela Perujo
+  sede: chaco
   autoridad: secretariadeadministracionfinanzasylegales
-- nameurl: mperez
-  name: Mariana Perez
+- nameurl: mfernandez
+  name: Morelia Fernández
   sede: chaco
   autoridad: secretariadecomunicacion
-- nameurl: jserezo
-  name: Juan Ignacio Serezo
+- nameurl: goliva
+  name: Gastón Oliva Wuerich
   sede: chaco
   autoridad: secretariadedesarrollodefondos
-- nameurl: eromero
-  name: Eliana Romero
-  sede: chaco
-  autoridad: secretariadecoordinaciondeproyectos
-- nameurl: jmpereyra
-  name: Juan Manuel Pereyra
-  sede: chaco
-  autoridad: secretariadecoordinaciondeproyectos  
-- nameurl: lgonzalez
-  name: Lourdes González
-  sede: chaco
-  autoridad: secretariadefortalecimientodelvoluntariado
 - nameurl: vgimenez
   name: Valentina Gimenez
   sede: acomisiondirectiva
