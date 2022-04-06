@@ -35,10 +35,10 @@
   name: Secretaría de Desarrollo de Fondos
   description: "Genera estrategias y políticas de sustentabilidad para la sede; quien potencia los vínculos con nuestros más grandes aliados, los donantes."
 - id: secretariadecomunicacion
-  name: Secretaría de Comunicación
+  name: Secretaría de Comunicación Estratégica
   description: "Coordina la comunicación externa e interna. Diseña las estrategias de imagen y comunicación, siendo la voz de OAJNU."
 - id: secretariadecoordinaciondeproyectos
-  name: Secretaría de Coordinación de Proyectos
+  name: Secretaría de Impacto
   description: "Dirige estratégicamente los proyectos que ejecutamos en la región, supervisando su calidad y asegurando que su impacto sean más jóvenes empoderados."
 - id: secretariadefortalecimientodelvoluntariado
   name: Secretaría de Fortalecimiento del Voluntariado
