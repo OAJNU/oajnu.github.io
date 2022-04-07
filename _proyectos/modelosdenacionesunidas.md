@@ -6,12 +6,11 @@ description: El Modelo de Naciones Unidas es una representación a modo de simul
 photospastevents:
 sedes:
   - buenosaires
-  - cordoba
+  - salta
   - mendoza
   - rosario
-  - salta
-  - corrientes
-  - tucuman
+  - cordoba
+  - chaco
 objectives:
 target:
 linkinscription:
