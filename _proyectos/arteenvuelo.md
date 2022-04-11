@@ -1,7 +1,7 @@
 ---
 layout: proyectos
 title: Modelo de Conferencia de las Partes
-nameurl: modelocop
+nameurl: arteenvuelo
 description: -
 photospastevents:
 sedes:
