@@ -1,7 +1,7 @@
 ---
 layout: proyectos
 title: Debate Joven
-nameurl: debatejoven
+nameurl: concursoliterario
 description: -
 photospastevents:
 sedes:
