@@ -10,8 +10,8 @@ sedes:
   - mendoza
   - rosario
   - salta
-  - corrientes
   - tucuman
+  - chaco
 objectives:
 target:
 linkinscription:
