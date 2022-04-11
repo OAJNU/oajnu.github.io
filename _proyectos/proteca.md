@@ -6,6 +6,10 @@ description: ...
 photospastevents: 
 sedes:
   - cordoba
+  - corrientes
+  - mendoza
+  - tucuman
+  - rosario
 objectives: 
 target: 
 linkinscription: 
