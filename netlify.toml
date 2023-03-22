@@ -1,0 +1,25 @@
+[build]
+  publish = "_site/"
+  command = "jekyll build"
+
+[context.production]
+  [context.production.environment]
+    JEKYLL_ENV = "production"
+
+[context.stg]
+    [context.stg.environment]
+        JEKYLL_ENV = "staging"
+
+[context.dev]
+    [context.dev.environment]
+        JEKYLL_ENV = "development"
+
+[context.master]
+    [context.master.environment]
+        JEKYLL_ENV = "development"
+
+[[redirects]]
+  from = "/blog"
+  to = "https://blog.oajnu.org"
+  status = 301
+  force = true

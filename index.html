@@ -1,0 +1,238 @@
+---
+layout: page
+title:
+permalink: /
+---
+
+<!-- SLIDER -->
+<section id="slider" class="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="block">
+          <h1 class="animated fadeInUp">La Organización Argentina de Jóvenes para las Naciones Unidas (OAJNU)</h1>
+          <p class="animated fadeInUp">
+              <strong>600 Voluntarios</strong>, colaborando a lo largo de <strong>112 Localidades</strong> en todo el País para empoderar a más de <strong>14000 Jóvenes.</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- QUIENES SOMOS -->
+<section id="intro" class="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>Quienes somos</h2>
+          </div>
+          <p>Somos una ONG sin fines de lucro, apartidaria y pluralista, compuesta en su totalidad por voluntarios de entre 18 y 30 años que trabajamos en 8 provincias de Argentina. Creemos en la educación como herramienta clave para transformar la sociedad. Desde este lugar trabajamos con jóvenes, a quienes consideramos los agentes más importantes para incidir y potenciar sus propios contextos, en pos de una sociedad más inclusiva, democrática y promotora de derechos.</p>
+          <p>Nos definimos como <strong>la fuerza de jóvenes voluntarios, empoderando a pares, para construir una sociedad cada vez más inclusiva, democrática y promotora de derechos</strong>.</p>
+        </div>
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <!-- <img src="img/wrapper-img.png" alt="Img"> -->
+          <!-- <img src="http://s3.amazonaws.com/libapps/customers/49/images/unflag.gif" alt="Img"> -->
+          <div class="video-16-9">
+            <iframe class="quienes-somos-video" width="560" height="315" src="https://www.youtube.com/embed/8GmShp-pJKs?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" title="Video institucional sobre quienes somos" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div><!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>
+
+<section id="feature">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <img  class="logo-onu" src="../img/handshake.png" alt="aliados">
+      <h2>Organización formalmente asociada con el Departamento de Comunicación Global (DGC) de las Naciones Unidas</h2>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- SEDES -->
+{% if site.sedes.size > 0 %}
+<section id="service"><span id="sedes"></span>
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>Nuestras Sedes</h2>
+      </div>
+    </div>
+    <div class="row rowflex" style="display: flex; align-items: center;">
+      {% for sede in site.sedes %}
+      {% if sede.nameurl == "acomisiondirectiva" %}
+      {% continue %}
+      {% endif %}
+      <div class="col-sm-12 col-md-4">
+        <div class="service-item">
+          <a href="/sedes/{{ sede.nameurl }}"><img class="sedeimg" src="/img/sedes/{{ sede.nameurl }}.png" alt="{{ sede.title }}" style="width: 100px;"></a>
+          <h4>{{ sede.title }}</h4>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- PROYECTOS -->
+{% if site.proyectos.size > 0 %}
+<section id="proyectos">
+  <div class="container">
+    <div class="row">
+      <div class="section-title rowflex">
+        <h2>Nuestros proyectos</h2>
+      </div>
+      <div class="col-md-12">
+        <div class="block">
+          <div id="proyectos-logo" class="owl-carousel">
+            {% for proyecto in site.proyectos %}
+            <div class="clients-logo-img">
+              <a href="/proyectos/{{ proyecto.nameurl }}"><img src="/img/proyectos/{{ proyecto.nameurl }}.png" alt="Features"></a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- SE VOLUNTARIO -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>SÉ VOLUNTARIO</h2>
+          <p>Transformá realidades vos también, sumate a nuestro equipo</p>
+          <a class="btn btn-default btn-call-to-action" href="https://docs.google.com/forms/d/e/1FAIpQLSdWfRtXLy33_j2T1kTtyla_IeHxeUvmAL0rb1PNK2HXzqkqjw/viewform?usp=sf_link" target="_blank">Quiero ser voluntario</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPONSORS -->
+{% if site.data.sponsors.size > 0 %}
+<section id="clients-logo-section">
+  <div class="container">
+      <div class="row">
+          <div class="section-title text-center">
+            <h2>Confían en nosotros</h2>
+          </div>
+        </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div id="clients-logo" class="owl-carousel">
+            {% for sponsor in site.data.sponsors %}
+            <div class="clients-logo-img">
+              <img src="/img/sponsors/{{ sponsor.id }}.png" alt="Features">
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if site.data.funfacts.size > 0 or site.data.testimonials.size > 0 %}
+<!-- IMPACTO -->
+<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>Nuestro Impacto</h2>
+        <p>Desde el 1995 desarrollamos proyectos educativos y promovemos los derechos de los jóvenes.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        {% if site.data.funfacts.size > 0 %}
+        <div class="block">
+          <ul class="counter-box clearfix">
+            {% for ff in site.data.funfacts %}
+            <li>
+              <div class="block">
+                <i class="{{ ff.icon }}"></i>
+                <h4 class="counter">{{ ff.counter }}</h4>
+                <span>{{ ff.text }}</span>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+      <div class="col-md-6">
+        {% if site.data.testimonials.size > 0 %}
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {% for tm in site.data.testimonials %}
+            <div>
+                <p>"{{ tm.testimonial }}"</p>
+                <div class="user">
+                  <img src="{{ tm.image }}" alt="Pepole">
+                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if site.data.faq.size > 0 %}
+<section id="faq">
+  <div class="container">
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>Preguntas Frecuentes</h2>
+        <div class="col-md-12">
+          <div class="block">
+            {% for ff in site.data.faq %}
+            <button class="accordion">{{ ff.pregunta }}</button>
+            <div class="panel">
+              <p>{{ ff.respuesta }}</p>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<script>
+
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight){
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
