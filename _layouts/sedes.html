@@ -1,0 +1,99 @@
+---
+layout: page
+---
+
+<section id="global-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>Sede {{ page.title }}</h1>
+                    <div class="social-icons">
+                      <a class="main-cta" href="{{ page.donarurl }}" target="_blank">Doná a la Sede {{ page.title }}</a>
+                      <span>
+                      {% for socialmedia in page.socialmedia %}
+                      <a href="https://www.{{ socialmedia[0] }}.com/{{ socialmedia[1] }}" target="_blank"><i class="fa fa-{{ socialmedia[0] }}"></i></a>
+                      {% endfor %}
+                      </span>
+                    </div>
+                    <p>{{ page.email }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio-work">
+<div class="container">
+    <div class="row">
+      <div class="section-title" style="text-align: center;">
+        <h2>Comité Ejecutivo</h2>
+      </div>
+      <div class="col-md-12">
+        <div class="block">
+          <div class="portfolio-contant">
+            <ul id="portfolio-contant-active">
+              {% for voluntario in site.data.voluntarios %}
+              {% if voluntario.sede == page.nameurl %}
+              <li class="mix">
+                <a>
+                  <img src="/img/voluntarios/{{ voluntario.sede }}/{{ voluntario.nameurl }}.jpg" alt="" onerror="this.src='/img/voluntarios/profile.jpg'">
+                  <div class="overly">
+                    <div class="position-center">
+                      <h2>{{ voluntario.name }}</h2>
+                      {% for autoridad in site.data.autoridades %}
+                      {% if autoridad.id == voluntario.autoridad %}
+                      <h4>{{ autoridad.name }}</h4>
+                      <p>{{ autoridad.description }}</p>
+                      {% endif %}
+                      {% endfor %}
+                    </div>
+                  </div>
+                </a>
+              </li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+
+<section id="proyectos">
+  <div class="container">
+    <div class="row">
+      <div class="section-title rowflex">
+        <h2>Nuestros proyectos</h2>
+      </div>
+      <div class="col-md-12">
+        <div class="block">
+          <div id="proyectos-logo-buenos-aires" class="owl-carousel">
+            {% for proyecto in site.proyectos %}
+            {% assign proyectossedes = proyecto.sedes | join: " " %}
+            {% if proyectossedes contains page.nameurl %}
+            <div class="clients-logo-img">
+              <a href="/proyectos/{{ proyecto.nameurl }}"><img src="/img/proyectos/{{ proyecto.nameurl }}.png" alt="Features"></a>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="vernoticias">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Blog de OAJNU {{ page.title }}</h2>
+          <a class="btn btn-default btn-call-to-action" href="https://blog.oajnu.org/porsede/#{{ page.title }}" >Ver posts</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

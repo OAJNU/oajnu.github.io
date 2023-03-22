@@ -1,0 +1,91 @@
+---
+layout: page
+---
+
+<section id="global-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>{{ page.title }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="rowflex">
+    <div class="container">
+        <div class="row text-center">
+            <img class="main-logo" src="/img/proyectos/{{ page.nameurl }}.png" alt="">
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">  
+                <p>{{ page.description }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if page.sedes.size > 0 %}
+<section id="service"><span id="sedes"></span>
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>¿Dónde puedo participar?</h2>
+      </div>
+    </div>
+    <div class="row rowflex" style="display: flex; align-items: center;">
+      {% for sede in site.sedes %}
+      {% if page.sedes contains sede.nameurl %}
+      <div class="col-sm-12 col-md-4">
+        <div class="service-item">
+          <a href="/sedes/{{ sede.nameurl }}"><img src="/img/sedes/{{ sede.nameurl }}.png" alt="{{ sede.title }}" style="width: 100px;"></a>
+          <h4>{{ sede.title }}</h4>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.faq.size > 0 %}
+<section id="faq">
+    <div class="container">
+      <div class="row">
+        <div class="section-title text-center">
+          <!-- <h2>Más info</h2> -->
+          <!-- <p>Aquí podremos resolver las dudas que casualmente tengas.</p> -->
+          <div class="col-md-12">
+            <div class="block">
+              {% for ff in page.faq %}
+              <button class="accordion">{{ ff.pregunta }}</button>
+              <div class="panel">
+                <p>{{ ff.respuesta }}</p>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+  
+  <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          } 
+        });
+      }
+      </script>

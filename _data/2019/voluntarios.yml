@@ -1,0 +1,212 @@
+- nameurl: aportillo
+  name: Alexis Portillo
+  sede: buenosaires
+  autoridad: secretariadeadministracionfinanzasylegales
+- nameurl: cbarresi
+  name: Carolina Barresi López 
+  sede: buenosaires
+  autoridad: secretariadefortalecimientodelvoluntariado
+- nameurl: nzanini
+  name: Nuri Zanini
+  sede: buenosaires
+  autoridad: secretariadecomunicacion
+- nameurl: mvmartinez
+  name: María Victoria Martínez 
+  sede: chaco
+  autoridad: secretariadeadministracionfinanzasylegales
+- nameurl: lvallejos
+  name: Lucas Vallejos Romero
+  sede: chaco
+  autoridad: secretariadecomunicacion
+- nameurl: jmpereyra
+  name: Juan Manuel Pereyra 
+  sede: chaco
+  autoridad: secretariadedesarrollodefondos
+- nameurl: eromero
+  name: Eliana Romero
+  sede: chaco
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: malvaredo
+  name: María Eugenia Alvaredo Schegtel
+  sede: chaco
+  autoridad: direccionejecutiva
+- nameurl: jolysinsky
+  name: Ignacio Olysinsky
+  sede: chaco
+  autoridad: secretariadecomunicacion
+- nameurl: bsilva
+  name: Brenda Silva
+  sede: chaco
+  autoridad: secretariadefortalecimientodelvoluntariado
+- nameurl: davidlopez
+  name: David Lopez
+  sede: acomisiondirectiva
+  autoridad: secretarianacionaldecomunicacion
+- nameurl: mlopezcechini
+  name: Marcela Inés López Cechini
+  sede: acomisiondirectiva
+  autoridad: secretarianacionaldecoordinaciondeproyectos
+- nameurl: sbermudez
+  name: Ana Sofía Bermúdez
+  sede: acomisiondirectiva
+  autoridad: secretariadefortalecimientodelvoluntariado
+- nameurl: jrusso
+  name: José Carlos Russo
+  sede: acomisiondirectiva
+  autoridad: secretarianacionaldepromociondederechos
+- nameurl: gcodutti
+  name: Georgina Antonella Codutti
+  sede: acomisiondirectiva
+  autoridad: secretarianacionaldeadministracionfinanzasylegales
+- nameurl: eaguero
+  name: Imanol Agüero
+  sede: acomisiondirectiva
+  autoridad: presidencia
+- nameurl: isilvero
+  name: María Inés Silvero
+  sede: corrientes
+  autoridad: direccionejecutiva
+- nameurl: skraemer
+  name: Simón Kraemer
+  sede: corrientes
+  autoridad: secretariadeadministracionfinanzasylegales
+- nameurl: mmattos
+  name: Milagros María del Rosario Mattos Castañeda
+  sede: corrientes
+  autoridad: secretarianacionaldepromociondederechos
+- nameurl: guillermopalacios
+  name: Guillermo Hernán Palacios
+  sede: corrientes
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: jferreira
+  name: Joaquin Ferreira 
+  sede: corrientes
+  autoridad: secretariadecomunicacion
+- nameurl: vmaiocchi
+  name: Victoria Maiocchi 
+  sede: corrientes
+  autoridad: secretariadefortalecimientodelvoluntariado
+- nameurl: azanaboni
+  name: Arrigo Zanaboni
+  sede: mendoza
+  autoridad: secretariadefortalecimientodelvoluntariado
+- nameurl: crey
+  name: Maria Clara Rey 
+  sede: mendoza
+  autoridad: direccionejecutiva
+- nameurl: gdelpozo
+  name: Gastón Del Pozo
+  sede: mendoza
+  autoridad: secretariadeadministracionfinanzasylegales
+- nameurl: gbravo
+  name: Guillermina Bravo
+  sede: mendoza
+  autoridad: secretariadecomunicacion
+- nameurl: amartinez
+  name: Alejandro Daniel Martínez
+  sede: mendoza
+  autoridad: secretariadedesarrollodefondos
+- nameurl: dfunes
+  name: Diana Funes
+  sede: mendoza
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: fterzaghi
+  name: Fiorella Terzaghi
+  sede: rosario
+  autoridad: secretariadefortalecimientodelvoluntariado
+- nameurl: mconiglio
+  name: Mirco Coniglio
+  sede: rosario
+  autoridad: secretariadecomunicacion
+- nameurl: blombardi
+  name: Bianca Lombardi
+  sede: rosario
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: jmvitullo
+  name: Juan Manuel Vitullo
+  sede: rosario
+  autoridad: direccionejecutiva
+- nameurl: mlorenzo
+  name: Mauro Lorenzo Benoist
+  sede: rosario
+  autoridad: secretariadecomunicacion
+- nameurl: afoglia
+  name: Andrea Foglia
+  sede: rosario
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: amigliorati
+  name: Agostina Migliorati
+  sede: rosario
+  autoridad: secretariadedesarrollodefondos
+- nameurl: dcalisaya
+  name: Daiana C. Calisaya Velarde
+  sede: salta
+  autoridad: secretariadeadministracionfinanzasylegales
+- nameurl: chautecoeur
+  name: Camila Hautecoeur
+  sede: salta
+  autoridad: secretariadecomunicacion
+- nameurl: arios
+  name: Rios Andrea 
+  sede: salta
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: mmodica
+  name: Mauro Nicolás Modica Posse
+  sede: salta
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: fguerrero
+  name: Florencia García Guerrero
+  sede: salta
+  autoridad: secretariadefortalecimientodelvoluntariado
+- nameurl: ggutierrez
+  name: Guillermo Lautaro Gutiérrez Caliuolo
+  sede: salta
+  autoridad: secretariadecomunicacion
+- nameurl: nquispe
+  name: Nahuel David Quispe Márquez
+  sede: salta
+  autoridad: secretariadedesarrollodefondos
+- nameurl: milagrosbustos
+  name: María Milagros Bustos
+  sede: sanjuan
+  autoridad: direccionejecutiva
+- nameurl: gerodriguez
+  name: M. German Rodriguez R.
+  sede: sanjuan
+  autoridad: secretariadecomunicacion
+- nameurl: efuentes
+  name: Ezequiel Fuentes
+  sede: sanjuan
+  autoridad: vicedireccionejecutiva
+- nameurl: pmontano
+  name: Pablo Montaño
+  sede: sanjuan
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: ftorres
+  name: Florencia Torres
+  sede: sanjuan
+  autoridad: secretariadedesarrollodefondos
+- nameurl: bcejas
+  name: Belén Cejas 
+  sede: tucuman
+  autoridad: secretariadecomunicacion
+- nameurl: aisaschebaia
+  name: Agustina Isas Chebaia 
+  sede: tucuman
+  autoridad: direccionejecutiva
+- nameurl: czarba
+  name: Ana Carla Zarbá
+  sede: tucuman
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: dfernandez
+  name: Daiana Soto Fernández
+  sede: tucuman
+  autoridad: secretariadefortalecimientodelvoluntariado
+- nameurl: nmarquez
+  name: Nico Márquez 
+  sede: tucuman
+  autoridad: secretariadecoordinaciondeproyectos
+- nameurl: aarguello
+  name: Analia Marisel Arguello
+  sede: corrientes
+  autoridad: direccionejecutiva
