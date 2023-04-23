@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
    * Init swiper slider with 1 slide at once in desktop view
    */
    new Swiper('.slides-1', {
-    speed: 600,
+    speed: 2000,
     loop: true,
     autoplay: {
       delay: 5000,
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /**
    * Init swiper slider with 3 slides at once in desktop view
-   */
+   
   new Swiper('.slides-3', {
     speed: 600,
     loop: true,
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /**
    * Init swiper slider with 3 slides at once in desktop view
-   */
+   
   new Swiper('.slides-3', {
     speed: 600,
     loop: true,
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
    * Gallery Slider
    */
   new Swiper('.gallery-slider', {
-    speed: 400,
+    speed: 2000,
     loop: true,
     centeredSlides: true,
     autoplay: {
