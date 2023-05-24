@@ -639,6 +639,7 @@ section {
 .why-us .img-bg {
   min-height: 500px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .why-us .slides {
